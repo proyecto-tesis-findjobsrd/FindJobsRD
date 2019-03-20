@@ -7,7 +7,7 @@
     android:orientation="vertical"
     android:background="@mipmap/fondoblue">
 
- //LinearLayout para el tituli de la pantalla
+ //LinearLayout para el titulo de la pantalla
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -65,7 +65,7 @@
 
     </LinearLayout>
 
-
+    //LinearLayout es para todos los textview y los edittext
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -242,12 +242,9 @@
             android:layout_marginLeft="5dp"
             />
 
-
-
-
-
     </LinearLayout>
 
+    //LinearLayout es para el boton de registrarse
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -261,11 +258,6 @@
             android:layout_marginTop="2dp"
             android:text="Registrarse" />
 
-
     </LinearLayout>
-
-
-
-
 
 </LinearLayout>
