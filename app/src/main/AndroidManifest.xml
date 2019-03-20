@@ -12,11 +12,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".PantallaLoginOtraVersion"></activity>
+
+        <activity android:name=".PantallaRegistroBuscador" />
+        <activity android:name=".PantallaLoginOtraVersion" />
         <activity android:name=".PantallaCarga" />
         <activity android:name=".PantallaElegirModo" />
         <activity android:name=".PantallaLogin" />
-        <activity android:name=".PantallaRegistroBuscador">
+        <activity android:name=".PantallaRecuperarContrasena"/>
+        <activity
+            android:name=".PantallaPrincipalBuscador"
+            android:label="@string/title_activity_pantalla_principal_buscador"
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

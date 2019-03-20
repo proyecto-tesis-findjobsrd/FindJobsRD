@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/curriculosfavoritos"
+            android:icon="@drawable/iconfavorito"
+            android:title="Curriculos Favoritos" />
+        <item
+            android:id="@+id/navegador"
+            android:icon="@drawable/iconnavegador"
+            android:title="Navegador" />
+        <item
+            android:id="@+id/comparar"
+            android:icon="@drawable/iconcompare"
+            android:title="Comparar Empleos" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/compartir"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Compartir" />
+            <item
+                android:id="@+id/acercade"
+                android:icon="@drawable/iconacercade"
+                android:title="Acerca de" />
+            <item
+                android:id="@+id/cerrarsesion"
+                android:icon="@drawable/iconcerrarsesion"
+                android:title="Cerrar Sesion" />
+        </menu>
+    </item>
+
+</menu>
