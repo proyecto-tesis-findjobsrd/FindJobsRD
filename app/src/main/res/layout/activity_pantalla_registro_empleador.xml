@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/fondoblue">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Registro de Empleador"
+            android:textSize="20sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="30dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="20dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:src="@mipmap/onlylogo"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#757575"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"
+            android:text="Nombre" />
+
+        <EditText
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#757575"
+            android:textStyle="bold"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/iconuser"
+            android:background="@drawable/buttonshapemine"
+            android:hint="Ingrese su Nombre"
+            android:layout_marginLeft="5dp"/>
+        />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#757575"
+            android:textStyle="bold"
+            android:text="Apellido"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            />
+
+
+        <EditText
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawablePadding="10dp"
+            android:textColor="#757575"
+            android:textStyle="bold"
+            android:drawableLeft="@drawable/iconuser"
+            android:background="@drawable/buttonshapemine"
+            android:hint="Ingrese su Apellido"
+            android:layout_marginLeft="5dp"
+            />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#757575"
+            android:textStyle="bold"
+            android:text="Correo"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            />
+
+
+        <EditText
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawablePadding="10dp"
+            android:textColor="#757575"
+            android:textStyle="bold"
+            android:drawableLeft="@drawable/iccorreo"
+            android:background="@drawable/buttonshapemine"
+            android:hint="Ingrese su Correo"
+            android:layout_marginLeft="5dp"
+            />
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#757575"
+            android:textStyle="bold"
+            android:text="Telefono"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            />
+
+
+        <EditText
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawablePadding="10dp"
+            android:textColor="#757575"
+            android:textStyle="bold"
+            android:drawableLeft="@drawable/ictelefono"
+            android:background="@drawable/buttonshapemine"
+            android:hint="Ingrese su Telefono"
+            android:layout_marginLeft="5dp"
+            />
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#757575"
+            android:textStyle="bold"
+            android:text="Contraseña"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            />
+
+
+        <EditText
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawablePadding="10dp"
+            android:textColor="#757575"
+            android:textStyle="bold"
+            android:drawableLeft="@drawable/iconpass"
+            android:background="@drawable/buttonshapemine"
+            android:hint="Ingrese su Contraseña"
+            android:layout_marginLeft="5dp"
+            />
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#757575"
+            android:textStyle="bold"
+            android:text="Confirmar contraseña"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            />
+
+
+        <EditText
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawablePadding="10dp"
+            android:textColor="#757575"
+            android:textStyle="bold"
+            android:drawableLeft="@drawable/iconpass"
+            android:background="@drawable/buttonshapemine"
+            android:hint="Confirmar Contraseña"
+            android:layout_marginLeft="5dp"
+            />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonshape"
+            android:layout_marginTop="20dp"
+            android:text="Registrase" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#757575"
+            android:textStyle="bold"
+            android:text="Usuario Registrado"
+            android:layout_marginTop="10sp"/>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

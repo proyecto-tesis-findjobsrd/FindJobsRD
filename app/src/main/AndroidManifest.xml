@@ -13,16 +13,17 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
-        <activity android:name=".PantallaRegistroBuscador" />
+        <activity android:name=".PantallaRegistroBuscador" ></activity>
         <activity android:name=".PantallaLoginOtraVersion" />
         <activity android:name=".PantallaCarga" />
         <activity android:name=".PantallaElegirModo" />
         <activity android:name=".PantallaLogin" />
-        <activity android:name=".PantallaRecuperarContrasena"/>
+        <activity android:name=".PantallaRecuperarContrasena" />
         <activity
             android:name=".PantallaPrincipalBuscador"
             android:label="@string/title_activity_pantalla_principal_buscador"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:theme="@style/AppTheme.NoActionBar"/>
+            <activity android:name=".PantallaRegistroEmpleador">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
