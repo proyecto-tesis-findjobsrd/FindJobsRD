@@ -13,15 +13,16 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
-public class PantallaPrincipalBuscador extends AppCompatActivity
+public class PantallaPrincipalEmpleador extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_pantalla_principal_buscador);
+        setContentView(R.layout.activity_pantalla_principal_empleador);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -46,9 +47,10 @@ public class PantallaPrincipalBuscador extends AppCompatActivity
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.pantalla_principal_buscador, menu);
+        getMenuInflater().inflate(R.menu.pantalla_principal_empleador, menu);
         return true;
     }
+
 
     @SuppressWarnings("StatementWithEmptyBody")
     @Override
@@ -56,7 +58,7 @@ public class PantallaPrincipalBuscador extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.empleosfavoritos) {
+        if (id == R.id.curriculosfavoritos) {
             // Handle the camera action
         } else if (id == R.id.navegador) {
 

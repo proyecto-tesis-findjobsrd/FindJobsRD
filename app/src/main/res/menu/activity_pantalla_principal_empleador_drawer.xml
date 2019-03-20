@@ -5,9 +5,9 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/empleosfavoritos"
+            android:id="@+id/curriculosfavoritos"
             android:icon="@drawable/iconfavorito"
-            android:title="Empleos Favoritos" />
+            android:title="Curriculos Favoritos" />
         <item
             android:id="@+id/navegador"
             android:icon="@drawable/iconnavegador"
@@ -15,7 +15,7 @@
         <item
             android:id="@+id/comparar"
             android:icon="@drawable/iconcompare"
-            android:title="Comparar Empleos" />
+            android:title="Comparar Curriculos" />
 
     </group>
 

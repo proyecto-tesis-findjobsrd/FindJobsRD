@@ -7,4 +7,62 @@
     <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_pantalla_principal_empleador">PantallaPrincipalEmpleador</string>
+
+
+    <string-array name="Provincias">
+        <item>Azua</item>
+        <item>Bahoruco</item>
+        <item>Barahona</item>
+        <item>Dajabón</item>
+        <item>Distrito Nacional</item>
+        <item>Duarte</item>
+        <item>Elías Piña</item>
+        <item>El Seibo</item>
+        <item>Espaillat</item>
+        <item>Hato Mayor</item>
+        <item>Hermanas Mirabal</item>
+        <item>Independencia</item>
+        <item>La Altagracia</item>
+        <item>La Romana</item>
+        <item>La Vega</item>
+        <item>María Trinidad Sánchez</item>
+        <item>Monseñor Nouel</item>
+        <item>Monte Cristi</item>
+        <item>Monte Plata</item>
+        <item>Pedernales</item>
+        <item>Peravia</item>
+        <item>Puerto Plata</item>
+        <item>Samaná</item>
+        <item>San Cristóbal</item>
+        <item>San José de Ocoa</item>
+        <item>San Juan</item>
+        <item>San Pedro de Macorís</item>
+        <item>Sánchez Ramírez</item>
+        <item>Santiago</item>
+        <item>Santiago Rodríguez</item>
+        <item>Santo Domingo</item>
+        <item>Valverde</item>
+    </string-array>
+
+    <string-array name="Estado">
+        <item>Disponible</item>
+        <item>Ocupado</item>
+    </string-array>
+
+    <string-array name="Areadetrabajo">
+        <item>Bancario</item>
+        <item>Comunicación y publicidad</item>
+        <item>Tecnología y sistemas</item>
+        <item>Ingeniería</item>
+        <item>Arquitectura</item>
+        <item>Agrónomia</item>
+        <item>Economía</item>
+        <item>Contabilidad</item>
+        <item>Mercadotecnia</item>
+        <item>Administración</item>
+
+    </string-array>
+
+
 </resources>

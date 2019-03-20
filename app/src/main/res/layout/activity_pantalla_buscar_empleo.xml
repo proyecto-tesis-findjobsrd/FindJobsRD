@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/fondoblue"
+    tools:context=".PantallaBuscarEmpleo">
+
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="222dp"
+        android:layout_height="170dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:adjustViewBounds="true"
+        android:cropToPadding="false"
+        android:layout_gravity="center"
+        android:src="@mipmap/onlylogo"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.75"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        style="@style/TextviewStyle"
+        android:layout_width="222dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="Buscar Empleo"
+        android:layout_gravity="center"
+        android:textStyle="italic"
+        android:fontFamily="sans-serif-black"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="238dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textseleccionaProvincia"
+        style="@style/TextviewStyle"
+        android:layout_width="322dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="Seleccione Provincia"
+        android:textStyle="italic"
+        android:fontFamily="sans-serif-black"
+        android:textSize="20dp"/>
+    <Spinner
+        android:id="@+id/spinnerProvincias"
+        android:layout_width="match_parent"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:backgroundTint="#0288D1"
+
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/textSeleccionaArea"
+        style="@style/TextviewStyle"
+        android:layout_width="322dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="Seleccione Area"
+        android:textStyle="italic"
+        android:fontFamily="sans-serif-black"
+        android:textSize="20dp"/>
+    <Spinner
+        android:id="@+id/spinnerAreas"
+        android:backgroundTint="#0288D1"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/textSeleccionaEstado"
+        style="@style/TextviewStyle"
+        android:layout_width="322dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="Seleccione Estado"
+        android:textStyle="italic"
+        android:fontFamily="sans-serif-black"
+        android:textSize="20dp"/>
+    <Spinner
+        android:id="@+id/spinnerEstado"
+        android:layout_width="match_parent"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:backgroundTint="#0288D1"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="316dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/buttonshape"
+        android:text="Buscar"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textColor="#FFFFFF" />
+
+
+
+
+</android.widget.LinearLayout>

@@ -5,6 +5,8 @@
 
     <dist:module dist:instant="true" />
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -12,17 +14,23 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
+        <activity android:name=".PantallaBuscarCurriculo"></activity>
+        <activity android:name=".PantallaNavegador" />
+        <activity
+            android:name=".PantallaPrincipalEmpleador"
+            android:label="@string/title_activity_pantalla_principal_empleador"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".PantallaRegistroBuscador" />
         <activity android:name=".PantallaLoginOtraVersion" />
         <activity android:name=".PantallaCarga" />
         <activity android:name=".PantallaElegirModo" />
         <activity android:name=".PantallaLogin" />
-        <activity android:name=".PantallaRecuperarContrasena"/>
+        <activity android:name=".PantallaRecuperarContrasena" />
         <activity
             android:name=".PantallaPrincipalBuscador"
             android:label="@string/title_activity_pantalla_principal_buscador"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".PantallaBuscarEmpleo">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
