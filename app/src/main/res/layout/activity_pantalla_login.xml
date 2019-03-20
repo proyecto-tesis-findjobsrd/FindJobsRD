@@ -23,13 +23,13 @@
                 android:layout_height="wrap_content"
                 android:textColor="#757575"
                 android:textStyle="bold"
-                android:text="Dont have account?"/>
+                android:text="No estas Registrado?"/>
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/buttonshape"
-                android:text="Signup Now"/>
+                android:text="Registrarse"/>
         </LinearLayout>
 
         <LinearLayout
@@ -68,6 +68,8 @@
                 android:layout_height="wrap_content"
                 android:textColor="#757575"
                 android:textStyle="bold"
+                android:drawableLeft="@drawable/iconuser"
+                android:drawablePadding="10dp"
                 android:background="@drawable/buttonshapemine"
                 android:hint="UserNAme" />
 
@@ -82,6 +84,8 @@
             <EditText
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/iconpass"
+                android:drawablePadding="10dp"
                 android:textColor="#757575"
                 android:textStyle="bold"
                 android:background="@drawable/buttonshapemine"
@@ -94,14 +98,14 @@
                 android:layout_height="wrap_content"
                 android:background="@drawable/buttonshape"
                 android:layout_marginTop="20dp"
-                android:text="Sign In" />
+                android:text="Iniciar Sesion" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="#757575"
                 android:textStyle="bold"
-                android:text="Forgot Password?" />
+                android:text="Olvido su Contraseña" />
 
         </LinearLayout>
 
