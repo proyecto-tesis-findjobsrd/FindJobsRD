@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@mipmap/fondoblue">
 
- //LinearLayout para el titulo de la pantalla
+    //LinearLayout para el titulo de la pantalla
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -17,19 +16,19 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Registro del Buscador"
+            android:text="Registro de Empleador"
             android:textSize="20sp"
             android:layout_gravity="center_horizontal"
             android:layout_margin="30dp"/>
     </LinearLayout>
 
-    //LinearLayout para la imagen de perfil y el RNC
+    //LinearLayout para la imagen de perfil
     <LinearLayout
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center_vertical"
         android:layout_marginLeft="20dp"
-        android:orientation="horizontal">
+        android:orientation="vertical">
 
         <ImageView
             android:id="@+id/imageView"
@@ -39,31 +38,8 @@
             android:layout_marginEnd="8dp"
             android:layout_marginBottom="8dp"
             android:src="@mipmap/onlylogo"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textColor="#757575"
-            android:textStyle="bold"
-            android:layout_marginLeft="20sp"
-            android:text="RNC:"
-            android:textSize="20sp"/>
-
-        <EditText
-
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:drawablePadding="10dp"
-            android:textColor="#757575"
-            android:textStyle="bold"
-            android:drawableLeft="@drawable/icrnc"
-            android:background="@drawable/buttonshapemine"
-            android:hint="Ingrese su RNC"
-            android:layout_marginLeft="5dp"
-            />
-
-
     </LinearLayout>
+
 
     //LinearLayout es para todos los textview y los edittext
     <LinearLayout
@@ -93,6 +69,30 @@
             android:layout_marginLeft="5dp"/>
         />
 
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#757575"
+            android:textStyle="bold"
+            android:text="Apellido"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            />
+
+
+        <EditText
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawablePadding="10dp"
+            android:textColor="#757575"
+            android:textStyle="bold"
+            android:drawableLeft="@drawable/iconuser"
+            android:background="@drawable/buttonshapemine"
+            android:hint="Ingrese su Apellido"
+            android:layout_marginLeft="5dp"
+            />
 
         <TextView
 
@@ -142,57 +142,6 @@
             android:hint="Ingrese su Telefono"
             android:layout_marginLeft="5dp"
             />
-
-        <TextView
-
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textColor="#757575"
-            android:textStyle="bold"
-            android:text="Direccion"
-            android:layout_marginLeft="20dp"
-            android:layout_marginTop="10dp"
-            />
-
-
-        <EditText
-
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:drawablePadding="10dp"
-            android:textColor="#757575"
-            android:textStyle="bold"
-            android:drawableLeft="@drawable/iconuser"
-            android:background="@drawable/buttonshapemine"
-            android:hint="Ingrese su Direccion"
-            android:layout_marginLeft="5dp"
-            />
-
-        <TextView
-
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textColor="#757575"
-            android:textStyle="bold"
-            android:text="Pagina Web"
-            android:layout_marginLeft="20dp"
-            android:layout_marginTop="10dp"
-            />
-
-
-        <EditText
-
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:drawablePadding="10dp"
-            android:textColor="#757575"
-            android:textStyle="bold"
-            android:drawableLeft="@drawable/icweb"
-            android:background="@drawable/buttonshapemine"
-            android:hint="Ingrese su pagina web"
-            android:layout_marginLeft="5dp"
-            />
-
         <TextView
 
             android:layout_width="wrap_content"
@@ -242,6 +191,7 @@
             android:layout_marginLeft="5dp"
             />
 
+
     </LinearLayout>
 
     //LinearLayout es para el boton de registrarse
@@ -255,9 +205,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@drawable/buttonshape"
-            android:layout_marginTop="2dp"
-            android:text="Registrarse" />
+            android:layout_marginTop="20dp"
+            android:text="Registrase" />
 
     </LinearLayout>
+
+
+
+
 
 </LinearLayout>
