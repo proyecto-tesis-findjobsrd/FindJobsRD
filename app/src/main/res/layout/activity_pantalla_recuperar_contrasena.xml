@@ -72,6 +72,7 @@
     </LinearLayout>
 
         <EditText
+            style="@style/edittextRegistrar_Y_LoginStyle"
             android:id="@+id/button1"
             android:layout_width="316dp"
             android:layout_height="wrap_content"
@@ -100,7 +101,6 @@
                 android:background="@drawable/buttonshape"
                 android:text="Enviar Correo"
                 android:layout_gravity="center"
-
                 android:textColor="#FFFFFF"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.455"

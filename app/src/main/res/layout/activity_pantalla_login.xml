@@ -64,14 +64,9 @@
                 android:text="Correo Electronico" />
 
             <EditText
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textColor="#757575"
-                android:textStyle="bold"
+                style="@style/edittextRegistrar_Y_LoginStyle"
                 android:drawableLeft="@drawable/iconuser"
-                android:drawablePadding="10dp"
-                android:background="@drawable/buttonshapemine"
-                android:hint="UserNAme" />
+                android:hint="E-mail" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -82,16 +77,9 @@
                 android:text="Contraseña" />
 
             <EditText
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:drawableLeft="@drawable/iconpass"
-                android:drawablePadding="10dp"
-                android:textColor="#757575"
-                android:textStyle="bold"
+                style="@style/edittextRegistrar_Y_LoginStyle"
                 android:background="@drawable/buttonshapemine"
-                android:hint="password" />
-
-
+                android:hint="Contraseña" />
 
             <Button
                 android:layout_width="wrap_content"

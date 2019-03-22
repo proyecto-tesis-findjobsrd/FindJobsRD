@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@mipmap/fondoblue"
+    tools:context=".PantallaRegistrarEmpleo">
+
+    <TextView
+        android:id="@+id/textView2"
+        style="@style/TextviewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="50dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Registrar Empleo"
+        android:textSize="40dp"
+        android:textStyle="italic"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="238dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="10dp"
+        android:src="@mipmap/onlylogo"/>
+
+    <LinearLayout
+        android:layout_width="411dp"
+        android:layout_height="346dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textnombreempresa"
+                    style="@style/textviewRegistrarStyle"
+                    android:text="Nombre empresa"/>
+
+                <EditText
+                    android:id="@+id/editTextnombreempresa"
+                    style="@style/edittextRegistrarStyle"
+                    android:drawableLeft="@drawable/iconuser"
+                    android:hint="Ingrese el nombre de la empresa"/>
+
+                <TextView
+                    android:id="@+id/textnombreempleo"
+                    style="@style/textviewRegistrarStyle"
+                    android:text="Nombre empleo"/>
+
+                <EditText
+                    android:id="@+id/editTextnombreempleo"
+                    style="@style/edittextRegistrarStyle"
+                    android:drawableLeft="@drawable/iconuser"
+                    android:hint="Ingrese el nombre del empleo"/>
+
+                <TextView
+                    android:id="@+id/textprovincia"
+                    style="@style/textviewRegistrarStyle"
+                    android:text="Provincia"/>
+
+                <Spinner
+                    android:id="@+id/spinnerProvincias"
+                    style="@style/spinnerStyle"/>
+
+                <TextView
+                    android:id="@+id/textArea"
+                    style="@style/textviewRegistrarStyle"
+                    android:text="Area" />
+
+                <Spinner
+                    android:id="@+id/spinnerAreas"
+                    style="@style/spinnerStyle"/>
+
+                <TextView
+                    android:id="@+id/texttelefono"
+                    style="@style/textviewRegistrarStyle"
+                    android:text="telefono" />
+
+                <EditText
+                    android:id="@+id/editTexttelefono"
+                    style="@style/edittextRegistrarStyle"
+                    android:drawableLeft="@drawable/iconuser"
+                    android:hint="Ingrese el telefono"
+                    android:inputType="phone" />
+
+                <TextView
+                    android:id="@+id/textemail"
+                    style="@style/textviewRegistrarStyle"
+                    android:text="Email"/>
+
+                <EditText
+                    android:id="@+id/editTextemail"
+                    style="@style/edittextRegistrarStyle"
+                    android:drawableLeft="@drawable/iconuser"
+                    android:hint="Ingrese el email" />
+
+                <TextView
+                    android:id="@+id/textdireccion"
+                    style="@style/textviewRegistrarStyle"
+                    android:text="Direccion"/>
+
+                <EditText
+                    android:id="@+id/editTextdireccion"
+                    style="@style/edittextRegistrarStyle"
+                    android:drawableLeft="@drawable/iconuser"
+                    android:hint="Ingrese su Direccion"/>
+
+                <TextView
+                    android:id="@+id/textpaginaweb"
+                    style="@style/textviewRegistrarStyle"
+                    android:text="Pagina Web"/>
+
+                <EditText
+                    android:id="@+id/editTextpaginaweb"
+                    style="@style/edittextRegistrarStyle"
+                    android:drawableLeft="@drawable/iconuser"
+                    android:hint="Ingrese su pagina web"/>
+
+                <TextView
+                    android:id="@+id/texttipodecontrato"
+                    style="@style/textviewRegistrarStyle"
+                    android:text="Tipo de contrato"/>
+
+                <Spinner
+                    android:id="@+id/spinnerTipoContrato"
+                    style="@style/spinnerStyle"/>
+
+                <TextView
+                    android:id="@+id/textrangodeedad"
+                    style="@style/textviewRegistrarStyle"
+                    android:text="Rango de edad" />
+
+                <Spinner
+                    android:id="@+id/spinnerRangoEdad"
+                    style="@style/spinnerStyle"/>
+
+                <TextView
+                    android:id="@+id/textformacionacademica"
+                    style="@style/textviewRegistrarStyle"
+                    android:text="Formacion academica" />
+
+                <Spinner
+                    android:id="@+id/spinnerFormacionAcademica"
+                    style="@style/spinnerStyle"/>
+
+                <TextView
+                    android:id="@+id/textjornada"
+                    style="@style/textviewRegistrarStyle"
+                    android:text="Jornada"/>
+
+                <Spinner
+                    android:id="@+id/spinnerJornadaTrabajo"
+                    style="@style/spinnerStyle"/>
+
+                <TextView
+                    android:id="@+id/texthorario"
+                    style="@style/textviewRegistrarStyle"
+                    android:text="Horario"/>
+
+                <EditText
+                    android:id="@+id/editTexthorario"
+                    style="@style/edittextRegistrarStyle"
+                    android:drawableLeft="@drawable/iconuser"
+                    android:hint="Ingrese el horario"/>
+
+                <TextView
+                    android:id="@+id/textidioma"
+                    style="@style/textviewRegistrarStyle"
+                    android:text="Idioma"/>
+
+                <Spinner
+                    android:id="@+id/spinnerIdiomas"
+                    style="@style/spinnerStyle"/>
+
+                <TextView
+                    android:id="@+id/textsalario"
+                    style="@style/textviewRegistrarStyle"
+                    android:text="Salario"/>
+
+                <EditText
+                    android:id="@+id/editTextsalario"
+                    style="@style/edittextRegistrarStyle"
+                    android:drawableLeft="@drawable/iconuser"
+                    android:hint="Ingrese el salario"/>
+
+                <TextView
+                    android:id="@+id/textcantidaddevacantes"
+                    style="@style/textviewRegistrarStyle"
+                    android:text="Cantidad de vacantes"/>
+
+                <Spinner
+                    android:id="@+id/spinnerCantidadVacantes"
+                    style="@style/spinnerStyle"/>
+
+                <TextView
+                    android:id="@+id/textsexorequerido"
+                    style="@style/textviewRegistrarStyle"
+                    android:text="Sexo requerido"/>
+
+                <Spinner
+                    android:id="@+id/spinnersexorequerido"
+                    style="@style/spinnerStyle"/>
+
+                <TextView
+                    android:id="@+id/textdescripcion"
+                    style="@style/textviewRegistrarStyle"
+                    android:text="Descripcion"/>
+
+                <EditText
+                    android:id="@+id/editTextdescripcion"
+                    style="@style/edittextRegistrarStyle"
+                    android:drawableLeft="@drawable/iconuser"
+                    android:hint="Ingrese la descripcion"/>
+
+                <TextView
+                    android:id="@+id/textanodeexperiencia"
+                    style="@style/textviewRegistrarStyle"
+                    android:text="Año de experiencia"/>
+
+                <Spinner
+                    android:id="@+id/spinneranodeexperiencia"
+                    style="@style/spinnerStyle"/>
+
+                <TextView
+                    android:id="@+id/textestado"
+                    style="@style/textviewRegistrarStyle"
+                    android:text="Estado"/>
+
+                <Spinner
+                    android:id="@+id/spinnerEstado"
+                    style="@style/spinnerStyle"/>
+
+                <TextView
+                    android:id="@+id/textfechapublicacion"
+                    style="@style/textviewRegistrarStyle"
+                    android:text="Fecha de publicacion"/>
+
+                <EditText
+                    android:id="@+id/editTextfechapublicacion"
+                    style="@style/edittextRegistrarStyle"
+                    android:drawableLeft="@drawable/iconuser"
+                    android:hint="Ingrese fecha de publicacion"/>
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttonshape"
+        android:layout_marginTop="20dp"
+        android:layout_margin="20dp"
+        android:text="Registrar" />
+</LinearLayout>

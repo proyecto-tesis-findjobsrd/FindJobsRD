@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@mipmap/fondoblue">
 
-    //LinearLayout para el titulo de la pantalla
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -14,21 +12,23 @@
         android:orientation="vertical">
 
         <TextView
+            style="@style/TextviewStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Registro de Empleador"
-            android:textSize="20sp"
+            android:text="Registro del Empleador"
+            android:textSize="30dp"
             android:layout_gravity="center_horizontal"
-            android:layout_margin="30dp"/>
+            android:textStyle="italic"
+            android:fontFamily="sans-serif-black"
+            android:layout_margin="10dp"/>
     </LinearLayout>
 
-    //LinearLayout para la imagen de perfil
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center_vertical"
         android:layout_marginLeft="20dp"
-        android:orientation="vertical">
+        android:orientation="horizontal">
 
         <ImageView
             android:id="@+id/imageView"
@@ -38,10 +38,26 @@
             android:layout_marginEnd="8dp"
             android:layout_marginBottom="8dp"
             android:src="@mipmap/onlylogo"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#757575"
+            android:textStyle="bold"
+            android:layout_marginLeft="20sp"
+            android:text="RNC:"
+            android:textSize="20sp"/>
+
+        <EditText
+            style="@style/edittextRegistrar_Y_LoginStyle"
+            android:drawableLeft="@drawable/icrnc"
+            android:hint="Ingrese su RNC"
+            android:layout_marginLeft="5dp"
+            />
+
+
     </LinearLayout>
 
-
-    //LinearLayout es para todos los textview y los edittext
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -49,152 +65,102 @@
         android:orientation="vertical">
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textColor="#757575"
-            android:textStyle="bold"
-            android:layout_marginLeft="20dp"
+            style="@style/textviewRegistrarStyle"
             android:text="Nombre" />
 
         <EditText
-
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textColor="#757575"
-            android:textStyle="bold"
-            android:drawablePadding="10dp"
+            style="@style/edittextRegistrar_Y_LoginStyle"
             android:drawableLeft="@drawable/iconuser"
-            android:background="@drawable/buttonshapemine"
             android:hint="Ingrese su Nombre"
             android:layout_marginLeft="5dp"/>
         />
 
-        <TextView
-
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textColor="#757575"
-            android:textStyle="bold"
-            android:text="Apellido"
-            android:layout_marginLeft="20dp"
-            android:layout_marginTop="10dp"
-            />
-
-
-        <EditText
-
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:drawablePadding="10dp"
-            android:textColor="#757575"
-            android:textStyle="bold"
-            android:drawableLeft="@drawable/iconuser"
-            android:background="@drawable/buttonshapemine"
-            android:hint="Ingrese su Apellido"
-            android:layout_marginLeft="5dp"
-            />
 
         <TextView
-
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textColor="#757575"
-            android:textStyle="bold"
+            style="@style/textviewRegistrarStyle"
             android:text="Correo"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="10dp"
             />
 
-
         <EditText
-
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:drawablePadding="10dp"
-            android:textColor="#757575"
-            android:textStyle="bold"
+            style="@style/edittextRegistrar_Y_LoginStyle"
             android:drawableLeft="@drawable/iccorreo"
-            android:background="@drawable/buttonshapemine"
             android:hint="Ingrese su Correo"
             android:layout_marginLeft="5dp"
             />
         <TextView
-
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textColor="#757575"
-            android:textStyle="bold"
+            style="@style/textviewRegistrarStyle"
             android:text="Telefono"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="10dp"
             />
 
-
         <EditText
 
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:drawablePadding="10dp"
-            android:textColor="#757575"
-            android:textStyle="bold"
+            style="@style/edittextRegistrar_Y_LoginStyle"
             android:drawableLeft="@drawable/ictelefono"
-            android:background="@drawable/buttonshapemine"
             android:hint="Ingrese su Telefono"
             android:layout_marginLeft="5dp"
             />
-        <TextView
 
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textColor="#757575"
-            android:textStyle="bold"
+        <TextView
+            style="@style/textviewRegistrarStyle"
+            android:text="Direccion"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            />
+
+        <EditText
+            style="@style/edittextRegistrar_Y_LoginStyle"
+            android:drawableLeft="@drawable/iconuser"
+            android:hint="Ingrese su Direccion"
+            android:layout_marginLeft="5dp"
+            />
+
+        <TextView
+            style="@style/textviewRegistrarStyle"
+            android:text="Pagina Web"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            />
+
+        <EditText
+            style="@style/edittextRegistrar_Y_LoginStyle"
+            android:drawableLeft="@drawable/icweb"
+            android:hint="Ingrese su pagina web"
+            android:layout_marginLeft="5dp"
+            />
+
+        <TextView
+            style="@style/textviewRegistrarStyle"
             android:text="Contraseña"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="10dp"
             />
 
-
         <EditText
-
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:drawablePadding="10dp"
-            android:textColor="#757575"
-            android:textStyle="bold"
+            style="@style/edittextRegistrar_Y_LoginStyle"
             android:drawableLeft="@drawable/iconpass"
-            android:background="@drawable/buttonshapemine"
             android:hint="Ingrese su Contraseña"
             android:layout_marginLeft="5dp"
             />
         <TextView
-
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textColor="#757575"
-            android:textStyle="bold"
+            style="@style/textviewRegistrarStyle"
             android:text="Confirmar contraseña"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="10dp"
             />
 
-
         <EditText
-
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:drawablePadding="10dp"
-            android:textColor="#757575"
-            android:textStyle="bold"
+            style="@style/edittextRegistrar_Y_LoginStyle"
             android:drawableLeft="@drawable/iconpass"
-            android:background="@drawable/buttonshapemine"
             android:hint="Confirmar Contraseña"
             android:layout_marginLeft="5dp"
             />
 
-
     </LinearLayout>
 
-    //LinearLayout es para el boton de registrarse
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -205,13 +171,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@drawable/buttonshape"
-            android:layout_marginTop="20dp"
-            android:text="Registrase" />
+            android:layout_marginTop="2dp"
+            android:text="Registrarse" />
 
     </LinearLayout>
-
-
-
-
 
 </LinearLayout>

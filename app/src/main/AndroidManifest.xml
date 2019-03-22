@@ -14,15 +14,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
-        <activity android:name=".PantallaBuscarCurriculo"></activity>
+        <activity android:name=".PantallaBuscarEmpleo"></activity>
+        <activity android:name=".PantallaBuscarCurriculo" />
         <activity android:name=".PantallaNavegador" />
         <activity
             android:name=".PantallaPrincipalEmpleador"
             android:label="@string/title_activity_pantalla_principal_empleador"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".PantallaRegistroBuscador" />
-        <activity android:name=".PantallaRegistroEmpleador"></activity>
+        <activity android:name=".PantallaRegistroEmpleador" />
         <activity android:name=".PantallaLoginOtraVersion" />
         <activity android:name=".PantallaCarga" />
         <activity android:name=".PantallaElegirModo" />
@@ -32,7 +32,7 @@
             android:name=".PantallaPrincipalBuscador"
             android:label="@string/title_activity_pantalla_principal_buscador"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".PantallaBuscarEmpleo">
+        <activity android:name=".PantallaRegistrarEmpleo">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

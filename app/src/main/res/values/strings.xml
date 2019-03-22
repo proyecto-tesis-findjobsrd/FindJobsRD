@@ -61,8 +61,68 @@
         <item>Contabilidad</item>
         <item>Mercadotecnia</item>
         <item>Administración</item>
-
     </string-array>
 
+    <string-array name="Sexo">
+        <item>Masculino</item>
+        <item>Femenino</item>
+    </string-array>
+
+    <string-array name="AnosExperiencia">
+        <item>1 Año</item>
+        <item>2 Años</item>
+        <item>3 Años</item>
+        <item>4 Años</item>
+        <item>5 Años</item>
+        <item>6 Años</item>
+        <item>7 Años</item>
+        <item>8 Años</item>
+        <item>9 Años</item>
+        <item>10 Años</item>
+    </string-array>
+
+    <string-array name="FormacionAcademica">
+        <item>Nivel Basico</item>
+        <item>Nivel Secundario</item>
+        <item>Nivel Superior</item>
+        <item>Bachiller</item>
+    </string-array>
+
+    <string-array name="JornadaTrabajo">
+        <item>Matutina</item>
+        <item>Vespertina</item>
+        <item>Nocturna</item>
+    </string-array>
+
+    <string-array name="TipoContrato">
+        <item>Fijo</item>
+        <item>Temporal</item>
+    </string-array>
+
+    <string-array name="numeros">
+        <item>1 </item>
+        <item>2 </item>
+        <item>3 </item>
+        <item>4 </item>
+        <item>5 </item>
+        <item>6 </item>
+        <item>7 </item>
+        <item>8 </item>
+        <item>9 </item>
+        <item>10+</item>
+    </string-array>
+
+    <string-array name="RangoEdad">
+        <item>18-25</item>
+        <item>26-35</item>
+        <item>36-45</item>
+        <item>46-∞)</item>
+    </string-array>
+
+    <string-array name="Idioma">
+        <item>Inglés </item>
+        <item>Francés</item>
+        <item>Otros</item>
+    </string-array>
 
 </resources>
