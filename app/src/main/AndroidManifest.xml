@@ -14,7 +14,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".PantallaBuscarEmpleo"></activity>
+        <activity android:name=".PantallaListaEmpleos"></activity>
+        <activity android:name=".PantallaBuscarEmpleo" />
         <activity android:name=".PantallaBuscarCurriculo" />
         <activity android:name=".PantallaNavegador" />
         <activity
