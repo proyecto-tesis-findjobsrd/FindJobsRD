@@ -58,40 +58,40 @@
                 <EditText
                     android:id="@+id/editTextcedula"
                     style="@style/edittextRegistrarStyle"
-                    android:drawableLeft="@drawable/iconuser"
+                    android:drawableLeft="@drawable/iccedula"
                     android:hint="Ingrese la cedula"
                     android:inputType="number" />
 
                 <TextView
                     android:id="@+id/textnombre"
                     style="@style/textviewRegistrarStyle"
-                    android:text="Nombre"/>
+                    android:text="Nombre" />
 
                 <EditText
                     android:id="@+id/editTextnombre"
                     style="@style/edittextRegistrarStyle"
                     android:drawableLeft="@drawable/iconuser"
-                    android:hint="Ingrese el nombre"/>
+                    android:hint="Ingrese el nombre" />
 
                 <TextView
                     android:id="@+id/textapellido"
                     style="@style/textviewRegistrarStyle"
-                    android:text="Apellido"/>
+                    android:text="Apellido" />
 
                 <EditText
                     android:id="@+id/editTextapellido"
                     style="@style/edittextRegistrarStyle"
                     android:drawableLeft="@drawable/iconuser"
-                    android:hint="Ingrese el apellido"/>
+                    android:hint="Ingrese el apellido" />
 
                 <TextView
                     android:id="@+id/textprovincia"
                     style="@style/textviewRegistrarStyle"
-                    android:text="Provincia"/>
+                    android:text="Provincia" />
 
                 <Spinner
                     android:id="@+id/spinnerProvincias"
-                    style="@style/spinnerStyle"/>
+                    style="@style/spinnerStyle" />
 
                 <TextView
                     android:id="@+id/textestadocivil"
@@ -100,7 +100,7 @@
 
                 <Spinner
                     android:id="@+id/spinnerEstadoCivil"
-                    style="@style/spinnerStyle"/>
+                    style="@style/spinnerStyle" />
 
                 <TextView
                     android:id="@+id/textArea"
@@ -109,18 +109,18 @@
 
                 <Spinner
                     android:id="@+id/spinnerAreas"
-                    style="@style/spinnerStyle"/>
+                    style="@style/spinnerStyle" />
 
                 <TextView
                     android:id="@+id/textfechdenacimiento"
                     style="@style/textviewRegistrarStyle"
-                    android:text="Fecha de nacimiento"/>
+                    android:text="Fecha de nacimiento" />
 
                 <EditText
                     android:id="@+id/editTextfechdenacimiento"
                     style="@style/edittextRegistrarStyle"
                     android:drawableLeft="@drawable/iconuser"
-                    android:hint="Ingrese fecha de nacimiento"/>
+                    android:hint="Ingrese fecha de nacimiento" />
 
                 <TextView
                     android:id="@+id/texttelefono"
@@ -130,7 +130,7 @@
                 <EditText
                     android:id="@+id/editTexttelefono"
                     style="@style/edittextRegistrarStyle"
-                    android:drawableLeft="@drawable/iconuser"
+                    android:drawableLeft="@drawable/ictelefono"
                     android:hint="Ingrese el telefono"
                     android:inputType="phone" />
 
@@ -142,60 +142,50 @@
                 <EditText
                     android:id="@+id/editTextcelular"
                     style="@style/edittextRegistrarStyle"
-                    android:drawableLeft="@drawable/iconuser"
+                    android:drawableLeft="@drawable/iccelular"
                     android:hint="Ingrese el celular"
                     android:inputType="phone" />
 
                 <TextView
                     android:id="@+id/textemail"
                     style="@style/textviewRegistrarStyle"
-                    android:text="Email"/>
+                    android:text="Email" />
 
                 <EditText
                     android:id="@+id/editTextemail"
                     style="@style/edittextRegistrarStyle"
-                    android:drawableLeft="@drawable/iconuser"
+                    android:drawableLeft="@drawable/icemail"
                     android:hint="Ingrese el email" />
 
                 <TextView
                     android:id="@+id/textdireccion"
                     style="@style/textviewRegistrarStyle"
-                    android:text="Direccion"/>
+                    android:text="Direccion" />
 
                 <EditText
                     android:id="@+id/editTextdireccion"
                     style="@style/edittextRegistrarStyle"
-                    android:drawableLeft="@drawable/iconuser"
-                    android:hint="Ingrese su Direccion"/>
+                    android:drawableLeft="@drawable/icdireccion"
+                    android:hint="Ingrese su Direccion" />
+
 
                 <TextView
-                    android:id="@+id/textpaginaweb"
+                    android:id="@+id/textsexo"
                     style="@style/textviewRegistrarStyle"
-                    android:text="Pagina Web"/>
-
-                <EditText
-                    android:id="@+id/editTextpaginaweb"
-                    style="@style/edittextRegistrarStyle"
-                    android:drawableLeft="@drawable/iconuser"
-                    android:hint="Ingrese su pagina web"/>
-
-                <TextView
-                    android:id="@+id/textsexorequerido"
-                    style="@style/textviewRegistrarStyle"
-                    android:text="Sexo requerido"/>
+                    android:text="Sexo" />
 
                 <Spinner
-                    android:id="@+id/spinnersexorequerido"
-                    style="@style/spinnerStyle"/>
+                    android:id="@+id/spinnersexo"
+                    style="@style/spinnerStyle" />
 
                 <TextView
                     android:id="@+id/textidioma"
                     style="@style/textviewRegistrarStyle"
-                    android:text="Idioma"/>
+                    android:text="Idioma" />
 
                 <Spinner
                     android:id="@+id/spinnerIdiomas"
-                    style="@style/spinnerStyle"/>
+                    style="@style/spinnerStyle" />
 
                 <TextView
                     android:id="@+id/textformacionacademica"
@@ -204,7 +194,80 @@
 
                 <Spinner
                     android:id="@+id/spinnerFormacionAcademica"
-                    style="@style/spinnerStyle"/>
+                    style="@style/spinnerStyle" />
+
+                <TextView
+                    android:id="@+id/textexperiencia"
+                    style="@style/textviewRegistrarStyle"
+                    android:text="Experiencia" />
+
+                <EditText
+                    android:id="@+id/editTextexperiencia"
+                    style="@style/edittextRegistrarStyle"
+                    android:drawableLeft="@drawable/iconuser"
+                    android:hint="Ingrese su experiencia" />
+
+                <TextView
+                    android:id="@+id/textanodeexperiencia"
+                    style="@style/textviewRegistrarStyle"
+                    android:text="Año de experiencia" />
+
+                <Spinner
+                    android:id="@+id/spinneranodeexperiencia"
+                    style="@style/spinnerStyle" />
+
+                <TextView
+                    android:id="@+id/textreferenciaslaborales"
+                    style="@style/textviewRegistrarStyle"
+                    android:text="Referencias laborales" />
+
+                <EditText
+                    android:id="@+id/editTextreferenciaslaborales"
+                    style="@style/edittextRegistrarStyle"
+                    android:drawableLeft="@drawable/iconuser"
+                    android:hint="Ingrese sus experiencias laborales" />
+
+                <TextView
+                    android:id="@+id/textestado"
+                    style="@style/textviewRegistrarStyle"
+                    android:text="Estado" />
+
+                <Spinner
+                    android:id="@+id/spinnerEstado"
+                    style="@style/spinnerStyle" />
+
+                <TextView
+                    android:id="@+id/textfechapublicacion"
+                    style="@style/textviewRegistrarStyle"
+                    android:text="Fecha de publicacion" />
+
+                <EditText
+                    android:id="@+id/editTextfechapublicacion"
+                    style="@style/edittextRegistrarStyle"
+                    android:drawableLeft="@drawable/iconuser"
+                    android:hint="Ingrese fecha de publicacion" />
+
+                <TextView
+                    android:id="@+id/texthabilidadesycompetencias"
+                    style="@style/textviewRegistrarStyle"
+                    android:text="Habilidades y competencias" />
+
+                <EditText
+                    android:id="@+id/editTexthabilidadesycompetencias"
+                    style="@style/edittextRegistrarStyle"
+                    android:drawableLeft="@drawable/iconuser"
+                    android:hint="Ingrese sus habilidades y competencias" />
+
+                <TextView
+                    android:id="@+id/textocupacionactual"
+                    style="@style/textviewRegistrarStyle"
+                    android:text="Ocupacion actual" />
+
+                <EditText
+                    android:id="@+id/editTextocupacionactual"
+                    style="@style/edittextRegistrarStyle"
+                    android:drawableLeft="@drawable/iconuser"
+                    android:hint="Ingrese su ocupacion actual" />
 
 
             </LinearLayout>
