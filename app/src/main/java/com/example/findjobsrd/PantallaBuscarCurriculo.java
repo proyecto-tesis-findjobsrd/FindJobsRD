@@ -1,5 +1,6 @@
 package com.example.findjobsrd;
 
+import android.content.pm.ActivityInfo;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -13,6 +14,8 @@ public class PantallaBuscarCurriculo extends AppCompatActivity implements Adapte
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
+
         setContentView(R.layout.activity_pantalla_buscar_curriculo);
 
     Spinner spinnerProvincia = findViewById(R.id.spinnerProvincias);

@@ -125,4 +125,10 @@
         <item>Otros</item>
     </string-array>
 
+    <string-array name="EstadoCivil">
+        <item>Soltero</item>
+        <item>Casado</item>
+    </string-array>
+    <string name="title_activity_pantalla_registrar_curriculum">PantallaRegistrarCurriculum</string>
+
 </resources>

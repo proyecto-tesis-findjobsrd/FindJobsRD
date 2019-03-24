@@ -1,5 +1,7 @@
 package com.example.findjobsrd;
 
+import android.content.Intent;
+import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -20,6 +22,8 @@ public class PantallaPrincipalEmpleador extends AppCompatActivity
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pantalla_principal_empleador);
+        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
+
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -59,16 +63,34 @@ public class PantallaPrincipalEmpleador extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.curriculosfavoritos) {
-            // Handle the camera action
-        } else if (id == R.id.navegador) {
 
-        } else if (id == R.id.comparar) {
+        } else if (id == R.id.navegadorEmpleador) {
+            Intent intent= new Intent(this, PantallaNavegador.class);
+            startActivity(intent);
 
-        } else if (id == R.id.compartir) {
+        } else if (id == R.id.compararEmpleador) {
 
-        } else if (id == R.id.acercade) {
+        } else if (id == R.id.AyudaEmpleador) {
+            Intent intent= new Intent(this, PantallaAyudaEmpleador.class);
+            startActivity(intent);
 
-        } else if (id == R.id.cerrarsesion) {
+        } else if (id == R.id.ConfiguracionEmpleador) {
+            Intent intent= new Intent(this, PantallaAjustesEmpleador.class);
+            startActivity(intent);
+
+        } else if (id == R.id.compartirEmpleador) {
+            Intent intent = new Intent(Intent.ACTION_SEND);
+            intent.setType("text/plain");
+            intent.putExtra(Intent.EXTRA_TEXT, "Si no tienes empleo, Descarga ---> https://play.google.com/store/apps/details?id=com.FindJobsRD");
+            startActivity(Intent.createChooser(intent, "Share with"));
+
+        } else if (id == R.id.acercadeEmpleador) {
+            Intent intent= new Intent(this, PantallaAcercaDe.class);
+            startActivity(intent);
+
+        } else if (id == R.id.cerrarsesionEmpleador) {
+            Intent intent= new Intent(this, PantallaLogin.class);
+            startActivity(intent);
 
         }
 

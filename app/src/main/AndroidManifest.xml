@@ -12,9 +12,17 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
+        android:screenOrientation="portrait"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name=".PantallaListaEmpleos"></activity>
+        android:theme="@style/AppTheme"
+        android:windowSoftInputMode="adjustNothing">
+        <activity android:name=".PantallaAjustesBuscador"></activity>
+        <activity android:name=".PantallaAjustesEmpleador" />
+        <activity android:name=".PantallaAyudaEmpleador" />
+        <activity android:name=".PantallaAyudaBuscador" />
+        <activity android:name=".PantallaAcercaDe" />
+        <activity android:name=".PantallaListaEmpleos" />
+        <activity android:name=".PantallaRegistrarCurriculum" />
         <activity android:name=".PantallaBuscarEmpleo" />
         <activity android:name=".PantallaBuscarCurriculo" />
         <activity android:name=".PantallaNavegador" />
@@ -25,15 +33,20 @@
         <activity android:name=".PantallaRegistroBuscador" />
         <activity android:name=".PantallaRegistroEmpleador" />
         <activity android:name=".PantallaLoginOtraVersion" />
-        <activity android:name=".PantallaCarga" />
         <activity android:name=".PantallaElegirModo" />
-        <activity android:name=".PantallaLogin" />
+        <activity
+            android:name=".PantallaLogin"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustNothing" />
         <activity android:name=".PantallaRecuperarContrasena" />
         <activity
             android:name=".PantallaPrincipalBuscador"
             android:label="@string/title_activity_pantalla_principal_buscador"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".PantallaRegistrarEmpleo">
+        <activity android:name=".PantallaRegistrarEmpleo" />
+        <activity
+            android:name=".PantallaCarga"
+            android:windowSoftInputMode="adjustNothing">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

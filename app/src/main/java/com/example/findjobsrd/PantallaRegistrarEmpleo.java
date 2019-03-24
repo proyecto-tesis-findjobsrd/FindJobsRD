@@ -1,5 +1,6 @@
 package com.example.findjobsrd;
 
+import android.content.pm.ActivityInfo;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -14,6 +15,8 @@ public class PantallaRegistrarEmpleo extends AppCompatActivity implements Adapte
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pantalla_registrar_empleo);
+        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
+
 
         Spinner spinnerProvincia = findViewById(R.id.spinnerProvincias);
         ArrayAdapter<CharSequence> adapterProvincia = ArrayAdapter.createFromResource(this,

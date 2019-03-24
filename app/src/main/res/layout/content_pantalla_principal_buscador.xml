@@ -49,7 +49,7 @@
         tools:ignore="MissingConstraints" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnRegistrarCurriculo"
         android:layout_width="316dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
@@ -63,7 +63,7 @@
 
 
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/btnBuscarEmpleoBuscador"
         android:layout_width="316dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -76,7 +76,7 @@
         android:textColor="#FFFFFF" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btnEmpresasInteresadas"
         android:layout_width="316dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"

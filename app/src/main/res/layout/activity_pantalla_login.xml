@@ -26,6 +26,7 @@
                 android:text="No estas Registrado?"/>
 
             <Button
+                android:id="@+id/btnRegistrarse"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/buttonshape"
@@ -51,49 +52,69 @@
                 android:textColor="#757575"
                 android:textSize="30dp"
                 android:textStyle="bold|italic"
-
                 android:text="LOGIN" />
 
 
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:text="Correo Electronico"
                 android:textColor="#757575"
-                android:textStyle="bold"
-
-                android:text="Correo Electronico" />
+                android:textStyle="bold" />
 
             <EditText
+                android:id="@+id/entrada_correoLogin"
                 style="@style/edittextRegistrar_Y_LoginStyle"
                 android:drawableLeft="@drawable/iconuser"
+                android:layout_marginTop="8dp"
                 android:hint="E-mail" />
 
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="#757575"
+                android:layout_marginTop="8dp"
+                android:layout_marginStart="50dp"
                 android:textStyle="bold"
-
                 android:text="Contraseña" />
 
             <EditText
+                android:id="@+id/entrada_contrasenaLogin"
                 style="@style/edittextRegistrar_Y_LoginStyle"
                 android:background="@drawable/buttonshapemine"
+                android:layout_marginTop="8dp"
+                android:drawableLeft="@drawable/iconpass"
                 android:hint="Contraseña" />
 
             <Button
+                android:id="@+id/btnIniciarSesion"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/buttonshape"
                 android:layout_marginTop="20dp"
                 android:text="Iniciar Sesion" />
 
+            <Button
+                android:id="@+id/btnIniciarSesiongoogle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttonshape"
+                android:drawableLeft="@mipmap/search"
+                android:paddingStart="10dp"
+                android:layout_marginTop="20dp"
+                android:text="Iniciar Sesion Con Google" />
+
+
             <TextView
+                android:id="@+id/textolvidoContrasena"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="#757575"
                 android:textStyle="bold"
-                android:text="Olvido su Contraseña" />
+                android:paddingTop="8dp"
+                android:onClick="Aviso"
+                android:text="Olvido su Contraseña?" />
 
         </LinearLayout>
 

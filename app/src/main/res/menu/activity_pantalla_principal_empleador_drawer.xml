@@ -9,28 +9,36 @@
             android:icon="@drawable/iconfavorito"
             android:title="Curriculos Favoritos" />
         <item
-            android:id="@+id/navegador"
+            android:id="@+id/navegadorEmpleador"
             android:icon="@drawable/iconnavegador"
             android:title="Navegador" />
         <item
-            android:id="@+id/comparar"
+            android:id="@+id/compararEmpleador"
             android:icon="@drawable/iconcompare"
             android:title="Comparar Curriculos" />
+        <item
+            android:id="@+id/AyudaEmpleador"
+            android:icon="@drawable/iconhelp"
+            android:title="Ayuda" />
+        <item
+            android:id="@+id/ConfiguracionEmpleador"
+            android:icon="@drawable/iconajuste"
+            android:title="Configuracion" />
 
     </group>
 
     <item android:title="Communicate">
         <menu>
             <item
-                android:id="@+id/compartir"
+                android:id="@+id/compartirEmpleador"
                 android:icon="@drawable/ic_menu_share"
                 android:title="Compartir" />
             <item
-                android:id="@+id/acercade"
+                android:id="@+id/acercadeEmpleador"
                 android:icon="@drawable/iconacercade"
                 android:title="Acerca de" />
             <item
-                android:id="@+id/cerrarsesion"
+                android:id="@+id/cerrarsesionEmpleador"
                 android:icon="@drawable/iconcerrarsesion"
                 android:title="Cerrar Sesion" />
         </menu>

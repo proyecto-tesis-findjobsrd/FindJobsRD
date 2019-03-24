@@ -25,23 +25,24 @@ android:background="@mipmap/fondoblue">
         android:textSize="30dp"/>
 </LinearLayout>
 
-<LinearLayout
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:gravity="center"
-    android:layout_marginLeft="20dp"
-    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="172dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:gravity="center"
+        android:orientation="vertical">
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="100dp"
-        android:layout_gravity="center"
-        android:layout_marginStart="8dp"
-        android:layout_marginEnd="20dp"
-        android:layout_marginBottom="8dp"
-        android:src="@mipmap/onlylogo"/>
-</LinearLayout>
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="231dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="8dp"
+            android:onClick="AbrirGaleria"
+            android:src="@mipmap/onlylogo" />
+    </LinearLayout>
 
 <LinearLayout
     android:layout_width="match_parent"
@@ -56,9 +57,9 @@ android:background="@mipmap/fondoblue">
     <EditText
         style="@style/edittextRegistrar_Y_LoginStyle"
         android:drawableLeft="@drawable/iconuser"
-        android:hint="Ingrese su Nombre"
+        android:hint="Ingrese Nombre"
         android:layout_marginLeft="5dp"/>
-    />
+
 
     <TextView
         style="@style/textviewRegistrarStyle"
@@ -70,7 +71,7 @@ android:background="@mipmap/fondoblue">
     <EditText
         style="@style/edittextRegistrar_Y_LoginStyle"
         android:drawableLeft="@drawable/iconuser"
-        android:hint="Ingrese su Apellido"
+        android:hint="Ingrese Apellido"
         android:layout_marginLeft="5dp"
         />
 
@@ -84,7 +85,7 @@ android:background="@mipmap/fondoblue">
     <EditText
         style="@style/edittextRegistrar_Y_LoginStyle"
         android:drawableLeft="@drawable/iccorreo"
-        android:hint="Ingrese su Correo"
+        android:hint="Ingrese Correo"
         android:layout_marginLeft="5dp"
         />
 
@@ -99,7 +100,7 @@ android:background="@mipmap/fondoblue">
     <EditText
         style="@style/edittextRegistrar_Y_LoginStyle"
         android:drawableLeft="@drawable/ictelefono"
-        android:hint="Ingrese su Telefono"
+        android:hint="Ingrese Telefono"
         android:layout_marginLeft="5dp"
         />
 
@@ -114,13 +115,13 @@ android:background="@mipmap/fondoblue">
     <EditText
         style="@style/edittextRegistrar_Y_LoginStyle"
         android:drawableLeft="@drawable/iconpass"
-        android:hint="Ingrese su Contraseña"
+        android:hint="Ingrese Contraseña"
         android:layout_marginLeft="5dp"
         />
 
     <TextView
         style="@style/textviewRegistrarStyle"
-        android:text="Confirmar contraseña"
+        android:text="Confirmar Contraseña"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="10dp"
         />
@@ -143,11 +144,13 @@ android:background="@mipmap/fondoblue">
     android:layout_marginTop="10dp">
 
     <Button
+        android:id="@+id/btnRegistrarBuscador"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/buttonshape"
         android:layout_marginTop="20dp"
-        android:text="Registrase" />
+        android:layout_marginBottom="10dp"
+        android:text="Registrarse" />
 
 </LinearLayout>
 </LinearLayout>

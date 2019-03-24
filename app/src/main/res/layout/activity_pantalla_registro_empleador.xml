@@ -31,12 +31,13 @@
         android:orientation="horizontal">
 
         <ImageView
-            android:id="@+id/imageView"
+            android:id="@+id/imageViewEmpleador"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_marginStart="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginBottom="8dp"
+            android:onClick="AbrirGaleria"
             android:src="@mipmap/onlylogo"/>
 
         <TextView
@@ -52,6 +53,7 @@
             style="@style/edittextRegistrar_Y_LoginStyle"
             android:drawableLeft="@drawable/icrnc"
             android:hint="Ingrese su RNC"
+            android:layout_marginEnd="10dp"
             android:layout_marginLeft="5dp"
             />
 
@@ -71,7 +73,7 @@
         <EditText
             style="@style/edittextRegistrar_Y_LoginStyle"
             android:drawableLeft="@drawable/iconuser"
-            android:hint="Ingrese su Nombre"
+            android:hint="Ingrese Nombre"
             android:layout_marginLeft="5dp"/>
         />
 
@@ -86,7 +88,7 @@
         <EditText
             style="@style/edittextRegistrar_Y_LoginStyle"
             android:drawableLeft="@drawable/iccorreo"
-            android:hint="Ingrese su Correo"
+            android:hint="Ingrese Correo"
             android:layout_marginLeft="5dp"
             />
         <TextView
@@ -100,7 +102,7 @@
 
             style="@style/edittextRegistrar_Y_LoginStyle"
             android:drawableLeft="@drawable/ictelefono"
-            android:hint="Ingrese su Telefono"
+            android:hint="Ingrese Telefono"
             android:layout_marginLeft="5dp"
             />
 
@@ -114,7 +116,7 @@
         <EditText
             style="@style/edittextRegistrar_Y_LoginStyle"
             android:drawableLeft="@drawable/iconuser"
-            android:hint="Ingrese su Direccion"
+            android:hint="Ingrese Direccion"
             android:layout_marginLeft="5dp"
             />
 
@@ -128,7 +130,7 @@
         <EditText
             style="@style/edittextRegistrar_Y_LoginStyle"
             android:drawableLeft="@drawable/icweb"
-            android:hint="Ingrese su pagina web"
+            android:hint="Ingrese Pagina Web"
             android:layout_marginLeft="5dp"
             />
 
@@ -142,7 +144,7 @@
         <EditText
             style="@style/edittextRegistrar_Y_LoginStyle"
             android:drawableLeft="@drawable/iconpass"
-            android:hint="Ingrese su Contraseña"
+            android:hint="Ingrese Contraseña"
             android:layout_marginLeft="5dp"
             />
         <TextView
@@ -168,10 +170,12 @@
         android:orientation="vertical"
         android:layout_marginTop="10dp">
         <Button
+            android:id="@+id/bttRegistroEmpleador"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@drawable/buttonshape"
-            android:layout_marginTop="2dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
             android:text="Registrarse" />
 
     </LinearLayout>
