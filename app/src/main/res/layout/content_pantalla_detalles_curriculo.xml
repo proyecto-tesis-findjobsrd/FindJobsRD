@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".PantallaDetallesCurriculo"
+    tools:showIn="@layout/activity_pantalla_detalles_curriculo">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="10dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/MostrarNombreyApellidoCurriculo"
+        style="@style/StyleAvisoMostrarDatos"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="50dp"
+        android:textStyle="bold|italic"
+        android:paddingTop="10dp"
+        android:hint="Nombres"/>
+
+    <TextView
+        android:id="@+id/MostrarApellidosCurriculo"
+        style="@style/StyleAvisoMostrarDatos"
+        android:textStyle="bold|italic"
+        android:textSize="30dp"
+        android:hint="Apellidos"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="@drawable/bordelayout"
+        android:padding="10dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/textCedulaCurriculo"
+            style="@style/StyleAvisoMostrarDatos"
+            android:text="Cedula"/>
+
+        <TextView
+            android:id="@+id/MostrarCedulaCurriculo"
+            style="@style/StyleMostrarDatos"
+            android:hint="Cedula"/>
+
+        <TextView
+            android:id="@+id/textdireccion"
+            style="@style/StyleAvisoMostrarDatos"
+            android:text="Direccion"/>
+
+        <TextView
+            android:id="@+id/MostrarDireccionCurriculo"
+            style="@style/StyleMostrarDatos"
+            android:drawableLeft="@drawable/icdireccion"
+            android:hint="Direccion"/>
+
+        <TextView
+            android:id="@+id/textprovincia"
+            style="@style/StyleAvisoMostrarDatos"
+            android:text="Provincia"/>
+
+        <TextView
+            android:id="@+id/MostrarProvinciasCurriculo"
+            style="@style/StyleMostrarDatos"
+            android:hint="Provincia"/>
+
+        <TextView
+            android:id="@+id/texttelefono"
+            style="@style/StyleAvisoMostrarDatos"
+            android:text="Telefono" />
+
+        <TextView
+            android:id="@+id/MostrarTelefonoCurriculo"
+            style="@style/StyleMostrarDatos"
+            android:drawableLeft="@drawable/ictelefono"
+            android:hint="Telefono"
+            android:inputType="phone" />
+
+        <TextView
+            android:id="@+id/textCelular"
+            style="@style/StyleAvisoMostrarDatos"
+            android:text="Celular" />
+
+        <TextView
+            android:id="@+id/MostrarCelularCurriculo"
+            style="@style/StyleMostrarDatos"
+            android:drawableLeft="@drawable/ictelefono"
+            android:hint="Celular"
+            android:inputType="phone" />
+
+        <TextView
+            android:id="@+id/textemail"
+            style="@style/StyleAvisoMostrarDatos"
+            android:text="Email"/>
+
+        <TextView
+            android:id="@+id/MostrarEmail"
+            style="@style/StyleMostrarDatos"
+            android:drawableLeft="@drawable/icemail"
+            android:hint="E-mail" />
+
+        <TextView
+            android:id="@+id/textestadoCivilcurriculo"
+            style="@style/StyleAvisoMostrarDatos"
+            android:text="Estado Civil"/>
+
+        <TextView
+            android:id="@+id/MostrarEstadoCivilCurriculo"
+            style="@style/StyleMostrarDatos"
+            android:hint="Estado Civil"/>
+
+        <TextView
+            android:id="@+id/textsexocurriculo"
+            style="@style/StyleAvisoMostrarDatos"
+            android:text="Sexo"/>
+
+        <TextView
+            android:id="@+id/MostrarSexoCurriculo"
+            style="@style/StyleMostrarDatos"
+            android:hint="Sexo"/>
+
+        <TextView
+            android:id="@+id/textareainteresCurriculo"
+            style="@style/StyleAvisoMostrarDatos"
+            android:text="Area De Interes"/>
+
+        <TextView
+            android:id="@+id/MostrarAreadeinteresCurriculo"
+            style="@style/StyleMostrarDatos"
+            android:hint="Area De Interes"/>
+
+        <TextView
+            android:id="@+id/textfechanacimientoCurriculo"
+            style="@style/StyleAvisoMostrarDatos"
+            android:text="Fecha de Nacimiento"/>
+
+        <TextView
+            android:id="@+id/MostrarfechanacimientoCurriculo"
+            style="@style/StyleMostrarDatos"
+            android:hint="Fecha De Nacimiento"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textdatosespecificosCurriculo"
+        style="@style/StyleAvisoMostrarDatos"
+        android:textStyle="bold|italic"
+        android:textSize="30dp"
+        android:text="Formacion Academica"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="@drawable/bordelayout"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textgradoCurriculo"
+            style="@style/StyleAvisoMostrarDatos"
+            android:text="Grado Academico"/>
+
+        <TextView
+            android:id="@+id/MostrarGradoCurriculo"
+            style="@style/StyleMostrarDatos"
+            android:hint="Grado Academico"/>
+
+        <TextView
+            android:id="@+id/textidiomaadicionalCurriculo"
+            style="@style/StyleAvisoMostrarDatos"
+            android:text="Idioma"/>
+
+        <TextView
+            android:id="@+id/MostrarIdiomaadicionalCurriculo"
+            style="@style/StyleMostrarDatos"
+            android:drawableLeft="@drawable/iconidiomas"
+            android:hint="Idioma"/>
+
+        <TextView
+            android:id="@+id/detalleFormacionCurriculo"
+            style="@style/StyleAvisoMostrarDatos"
+            android:text="Centro/Nivel/Año"/>
+
+        <TextView
+            android:id="@+id/MostrardetalleFormacionCurriculo"
+            style="@style/StyleMostrarDatos"
+            android:hint="Centro/Nivel/Año"/>
+
+        <TextView
+            android:id="@+id/MostrardetalleFormacionCurriculosegundo"
+            style="@style/StyleMostrarDatos"
+            android:hint="Centro/Nivel/Año"/>
+
+        <TextView
+            android:id="@+id/textOtrosCursosCurriculos"
+            style="@style/StyleAvisoMostrarDatos"
+            android:text="Otros Cursos"/>
+
+        <TextView
+            android:id="@+id/MostrarOtrosCursosCurriculos"
+            style="@style/StyleMostrarDatos"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:drawableLeft="@drawable/iconnota"
+            android:hint="Otros Cursos"/>
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/textrequisitos"
+        style="@style/StyleAvisoMostrarDatos"
+        android:textStyle="bold|italic"
+        android:textSize="30dp"
+        android:text="Experiencia Laboral"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="@drawable/bordelayout"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textExperienciaLaboralcurriculo"
+            style="@style/StyleAvisoMostrarDatos"
+            android:text="Nombre Empresa/Telefono/Cargo/Año" />
+
+        <TextView
+            android:id="@+id/MostrarExperienciaLaboralcurriculo"
+            style="@style/StyleMostrarDatos"
+            android:hint="Nombre Empresa/Telefono/Cargo/Año"/>
+
+        <TextView
+            android:id="@+id/MostrarExperienciaLaboralcurriculosegundo"
+            style="@style/StyleMostrarDatos"
+            android:hint="Nombre Empresa/Telefono/Cargo/Año"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textreferenciaslaborales"
+        style="@style/StyleAvisoMostrarDatos"
+        android:textSize="30dp"
+        android:textStyle="bold|italic"
+        android:text="Referencias Laborales"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="@drawable/bordelayout"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textreferenciaslaboralesCurriculos"
+            style="@style/StyleAvisoMostrarDatos"
+            android:text="Nombre/Cargo/Telefono"/>
+
+        <TextView
+            android:id="@+id/MostrarReferenciasLaboralesCurriculos"
+            style="@style/StyleMostrarDatos"
+            android:hint="Nombre/Cargo/Telefono"/>
+        <TextView
+            android:id="@+id/MostrarReferenciasLaboralesCurriculossegundo"
+            style="@style/StyleMostrarDatos"
+            android:hint="Nombre/Cargo/Telefono"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textDescripcion"
+        style="@style/StyleAvisoMostrarDatos"
+        android:textSize="30dp"
+        android:textStyle="bold|italic"
+        android:text="Habilidades y Conocimientos"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="@drawable/bordelayout"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textHabilidadesyConocimientos"
+            style="@style/StyleAvisoMostrarDatos"
+            android:text="Habilidades y Conocimientos"/>
+
+        <TextView
+            android:id="@+id/textnotadescripcionCurriculo"
+            style="@style/StyleMostrarDatos"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:drawableLeft="@drawable/iconnota"
+            android:hint="Descripcion o Nota"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textotrosdatosCurriculo"
+        style="@style/StyleAvisoMostrarDatos"
+        android:textStyle="bold|italic"
+        android:textSize="30dp"
+        android:text="Otros Datos"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="@drawable/bordelayout"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textEstadoDisponibilidadcurriculo"
+            style="@style/StyleAvisoMostrarDatos"
+            android:text="Estado Disponibilidad" />
+
+        <TextView
+            android:id="@+id/MostrarEstadoDisponibilidadcurriculo"
+            style="@style/StyleMostrarDatos"
+            android:hint="Estado Disponibilidad"/>
+
+        <TextView
+            android:id="@+id/textOcupacionActualcurriculo"
+            style="@style/StyleAvisoMostrarDatos"
+            android:text="Ocupacion Actual" />
+
+        <TextView
+            android:id="@+id/MostrarOcupacionActualcurriculo"
+            style="@style/StyleMostrarDatos"
+            android:hint="Ocupacion Actual"/>
+
+        <TextView
+            android:id="@+id/textFechaPublicacioncurriculo"
+            style="@style/StyleAvisoMostrarDatos"
+            android:text="FechaPublicacion" />
+
+        <TextView
+            android:id="@+id/MostrarFechaPublicacioncurriculo"
+            style="@style/StyleMostrarDatos"
+            android:hint="FechaPublicacion"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>
