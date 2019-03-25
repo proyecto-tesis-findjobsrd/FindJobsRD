@@ -91,7 +91,7 @@
         style="@style/spinnerStyle"/>
 
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/botonBuscarEmpleo"
         android:layout_width="316dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"

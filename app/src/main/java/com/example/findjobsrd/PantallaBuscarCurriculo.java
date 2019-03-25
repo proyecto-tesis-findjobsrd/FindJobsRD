@@ -1,11 +1,13 @@
 package com.example.findjobsrd;
 
+import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.Spinner;
 import android.widget.Toast;
 
@@ -38,6 +40,15 @@ public class PantallaBuscarCurriculo extends AppCompatActivity implements Adapte
         adapterEstado.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spinnerEstado.setAdapter(adapterEstado);
         spinnerEstado.setOnItemSelectedListener(this);
+
+        Button btnBuscarCurriculo = (Button) findViewById(R.id.botonBuscarCurriculo);
+        btnBuscarCurriculo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent (v.getContext(), PantallaListaEmpleos.class);
+                startActivityForResult(intent, 0);
+            }
+        });
 }
 
     @Override

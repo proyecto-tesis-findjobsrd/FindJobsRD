@@ -49,7 +49,7 @@ tools:showIn="@layout/app_bar_pantalla_principal_empleador">
     tools:ignore="MissingConstraints" />
 
 <Button
-    android:id="@+id/button"
+    android:id="@+id/buttonRegistrarEmpleo"
     android:layout_width="316dp"
     android:layout_height="wrap_content"
     android:layout_marginTop="10dp"
@@ -63,7 +63,7 @@ tools:showIn="@layout/app_bar_pantalla_principal_empleador">
 
 
 <Button
-    android:id="@+id/button1"
+    android:id="@+id/buttonBuscarCurriculos"
     android:layout_width="316dp"
     android:layout_height="wrap_content"
     android:layout_marginStart="8dp"

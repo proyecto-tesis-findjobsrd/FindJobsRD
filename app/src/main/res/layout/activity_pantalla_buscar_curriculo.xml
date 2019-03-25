@@ -104,7 +104,7 @@
         android:layout_height="wrap_content" />
 
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/botonBuscarCurriculo"
         android:layout_width="316dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"

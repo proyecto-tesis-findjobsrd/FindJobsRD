@@ -14,6 +14,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Button;
 
 public class PantallaPrincipalEmpleador extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -36,6 +37,24 @@ public class PantallaPrincipalEmpleador extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+
+        Button btnRegistrarEmpleo = (Button) findViewById(R.id.buttonRegistrarEmpleo);
+        btnRegistrarEmpleo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent =new Intent(PantallaPrincipalEmpleador.this, PantallaRegistrarEmpleo.class);
+                startActivity(intent);
+            }
+        });
+
+        Button btnBuscarCurriculos = (Button) findViewById(R.id.buttonBuscarCurriculos);
+        btnBuscarCurriculos.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent =new Intent(PantallaPrincipalEmpleador.this, PantallaBuscarCurriculo.class);
+                startActivity(intent);
+            }
+        });
     }
 
     @Override

@@ -32,7 +32,7 @@ public class PantallaRegistrarCurriculum extends AppCompatActivity implements Ad
         spinnerArea.setAdapter(adapterArea);
         spinnerArea.setOnItemSelectedListener(this);
 
-        Spinner spinnerSexo = findViewById(R.id.spinnersexorequerido);
+        Spinner spinnerSexo = findViewById(R.id.spinnersexo);
         ArrayAdapter<CharSequence> adapterSexo = ArrayAdapter.createFromResource(this,
                 R.array.Sexo, android.R.layout.simple_spinner_item);
         adapterSexo.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
