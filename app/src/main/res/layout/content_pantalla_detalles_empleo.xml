@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".PantallaDetallesEmpleo"
+    tools:showIn="@layout/activity_pantalla_detalles_empleo">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="10dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/MostrarNombreEmpleo"
+        style="@style/StyleAvisoMostrarDatos"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="50dp"
+        android:textStyle="bold|italic"
+        android:paddingTop="10dp"
+        android:hint="Nombre Empleo"/>
+
+    <TextView
+        android:id="@+id/MostrarNombreEmpresa"
+        style="@style/StyleAvisoMostrarDatos"
+        android:textStyle="bold|italic"
+        android:textSize="30dp"
+        android:hint="Nombre Empresa"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="@drawable/bordelayout"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textdireccion"
+            style="@style/StyleAvisoMostrarDatos"
+            android:text="Direccion"/>
+
+        <TextView
+            android:id="@+id/MostrarDireccion"
+            style="@style/StyleMostrarDatos"
+            android:drawableLeft="@drawable/icdireccion"
+            android:hint="Direccion"/>
+
+        <TextView
+            android:id="@+id/textprovincia"
+            style="@style/StyleAvisoMostrarDatos"
+            android:text="Provincia"/>
+
+        <TextView
+            android:id="@+id/MostrarProvincias"
+            style="@style/StyleMostrarDatos"
+            android:hint="Provincia"/>
+        <TextView
+            android:id="@+id/texttelefono"
+            style="@style/StyleAvisoMostrarDatos"
+            android:drawableLeft="@drawable/ictelefono"
+            android:text="Telefono" />
+
+        <TextView
+            android:id="@+id/MostrarTelefono"
+            style="@style/StyleMostrarDatos"
+            android:hint="Telefono"
+            android:inputType="phone" />
+        <TextView
+            android:id="@+id/textpaginaweb"
+            style="@style/StyleAvisoMostrarDatos"
+            android:text="Pagina Web"/>
+
+        <TextView
+            android:id="@+id/MostrarPaginaWeb"
+            style="@style/StyleMostrarDatos"
+            android:hint="Pagina Web"/>
+
+        <TextView
+            android:id="@+id/textemail"
+            style="@style/StyleAvisoMostrarDatos"
+            android:text="Email"/>
+
+        <TextView
+            android:id="@+id/MostrarEmail"
+            style="@style/StyleMostrarDatos"
+            android:drawableLeft="@drawable/icemail"
+            android:hint="E-mail" />
+
+        <TextView
+            android:id="@+id/textestado"
+            style="@style/StyleAvisoMostrarDatos"
+            android:text="Estado"/>
+
+        <TextView
+            android:id="@+id/MostrarEstado"
+            style="@style/StyleMostrarDatos"
+            android:hint="Estado"/>
+
+        <TextView
+            android:id="@+id/textfechapublicacion"
+            style="@style/StyleAvisoMostrarDatos"
+            android:text="Fecha de Publicacion"/>
+
+        <TextView
+            android:id="@+id/MostrarFechaPublicacion"
+            style="@style/StyleMostrarDatos"
+            android:hint="Fecha De Publicacion"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textdatosespecificos"
+        style="@style/StyleAvisoMostrarDatos"
+        android:textStyle="bold|italic"
+        android:textSize="30dp"
+        android:text="Datos Especificos"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="@drawable/bordelayout"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textjornada"
+            style="@style/StyleAvisoMostrarDatos"
+            android:text="Jornada"/>
+
+        <TextView
+            android:id="@+id/spinnerJornadaTrabajo"
+            style="@style/StyleMostrarDatos"
+            android:hint="Jornada"/>
+
+        <TextView
+            android:id="@+id/texthorario"
+            style="@style/StyleAvisoMostrarDatos"
+            android:text="Horario"/>
+
+        <TextView
+            android:id="@+id/MostrarHorario"
+            style="@style/StyleMostrarDatos"
+            android:drawableLeft="@drawable/iconreloj"
+            android:hint="Horario"/>
+
+        <TextView
+            android:id="@+id/textcantidaddevacantes"
+            style="@style/StyleAvisoMostrarDatos"
+            android:text="Cantidad de Vacantes"/>
+
+        <TextView
+            android:id="@+id/MostrarCantidadVacantes"
+            style="@style/StyleMostrarDatos"
+            android:hint="Cantidad de Cacantes"/>
+
+        <TextView
+            android:id="@+id/texttipodecontrato"
+            style="@style/StyleAvisoMostrarDatos"
+            android:text="Tipo de Contrato"/>
+
+        <TextView
+            android:id="@+id/MostrarTipoContrato"
+            style="@style/StyleMostrarDatos"
+            android:text="Tipo de Contrato"/>
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/textrequisitos"
+        style="@style/StyleAvisoMostrarDatos"
+        android:textStyle="bold|italic"
+        android:textSize="30dp"
+        android:text="Requisitos"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="@drawable/bordelayout"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textArea"
+            style="@style/StyleAvisoMostrarDatos"
+            android:text="Area" />
+
+        <TextView
+            android:id="@+id/MostrarAreas"
+            style="@style/StyleMostrarDatos"
+            android:hint="Area"/>
+
+        <TextView
+            android:id="@+id/textsexorequerido"
+            style="@style/StyleAvisoMostrarDatos"
+            android:text="Sexo requerido"/>
+
+        <TextView
+            android:id="@+id/MostrarSexoRequerido"
+            style="@style/StyleMostrarDatos"
+            android:hint="Sexo requerido"/>
+
+        <TextView
+            android:id="@+id/textrangodeedad"
+            style="@style/StyleAvisoMostrarDatos"
+            android:text="Rango Edad" />
+
+        <TextView
+            android:id="@+id/MostrarRangoEdad"
+            style="@style/StyleMostrarDatos"
+            android:hint="Rango Edad"/>
+
+        <TextView
+            android:id="@+id/textidioma"
+            style="@style/StyleAvisoMostrarDatos"
+            android:text="Idioma"/>
+
+        <TextView
+            android:id="@+id/MostrarIdiomas"
+            style="@style/StyleMostrarDatos"
+            android:drawableLeft="@drawable/iconidiomas"
+            android:hint="Idioma"/>
+
+        <TextView
+            android:id="@+id/textanodeexperiencia"
+            style="@style/StyleAvisoMostrarDatos"
+            android:text="Años de Experiencia"/>
+
+        <TextView
+            android:id="@+id/MostrarAnodeExperiencia"
+            style="@style/StyleMostrarDatos"
+            android:hint="Años de Experiencia"/>
+
+        <TextView
+            android:id="@+id/textformacionacademica"
+            style="@style/StyleAvisoMostrarDatos"
+            android:text="Formacion Academica" />
+
+        <TextView
+            android:id="@+id/MostrarFormacionAcademica"
+            style="@style/StyleMostrarDatos"
+            android:hint="Formacion Academica" />
+
+        <TextView
+            android:id="@+id/textotrorequisito"
+            style="@style/StyleAvisoMostrarDatos"
+            android:text="Otro Requisito"/>
+
+        <TextView
+            android:id="@+id/MostrarOtroRequisitos"
+            style="@style/StyleMostrarDatos"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="Otro Requisitos"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textbeneficios"
+        style="@style/StyleAvisoMostrarDatos"
+        android:textSize="30dp"
+        android:textStyle="bold|italic"
+        android:text="Beneficios"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="@drawable/bordelayout"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textsalario"
+            style="@style/StyleAvisoMostrarDatos"
+            android:text="Salario"/>
+
+        <TextView
+            android:id="@+id/MostrarSalario"
+            style="@style/StyleMostrarDatos"
+            android:drawableLeft="@drawable/iconmoney"
+            android:hint="Salario"/>
+
+        <TextView
+            android:id="@+id/textotrobeneficios"
+            style="@style/StyleAvisoMostrarDatos"
+            android:text="Otros Beneficios"/>
+
+        <TextView
+            android:id="@+id/MostrarOtroBeneficios"
+            style="@style/StyleMostrarDatos"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="Otros Beneficios"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textDescripcion"
+        style="@style/StyleAvisoMostrarDatos"
+        android:textSize="30dp"
+        android:textStyle="bold|italic"
+        android:text="Nota"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="@drawable/bordelayout"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textdescripcionnota"
+            style="@style/StyleAvisoMostrarDatos"
+            android:text="Descripcion"/>
+
+        <TextView
+            android:id="@+id/textnotadescripcion"
+            style="@style/StyleMostrarDatos"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:drawableLeft="@drawable/iconnota"
+            android:hint="Descripcion o Nota"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>
