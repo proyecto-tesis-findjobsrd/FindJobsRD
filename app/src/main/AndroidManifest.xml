@@ -16,7 +16,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:windowSoftInputMode="adjustNothing">
-        <activity android:name=".PantallaAjustesBuscador"></activity>
+        <activity android:name=".PantallaPerfinBuscador"></activity>
+        <activity android:name=".PantallaPerfilEmpresa" />
+        <activity android:name=".PantallaAjustesBuscador" />
         <activity android:name=".PantallaAjustesEmpleador" />
         <activity android:name=".PantallaAyudaEmpleador" />
         <activity android:name=".PantallaAyudaBuscador" />

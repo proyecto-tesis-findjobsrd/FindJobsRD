@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/fondoblue"
+    tools:context=".PantallaPerfilEmpresa">
+
+
+    <TextView
+        style="@style/TextviewStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Perfin empleador"
+        android:textSize="30dp"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="italic"
+        android:fontFamily="sans-serif-black"
+        android:layout_margin="10dp"/>
+    <ImageView
+        android:id="@+id/imageViewEmpleador"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:src="@mipmap/onlylogo"/>
+
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:text="RNC"
+        android:textColor="#757575"
+        android:padding="7dp"
+        android:background="@drawable/buttonshapemine"
+        android:drawablePadding="10dp"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/icrnc"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:text="Nombre"
+        android:textColor="#757575"
+        android:padding="7dp"
+        android:background="@drawable/buttonshapemine"
+        android:drawablePadding="10dp"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/iconuser"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:text="Correo"
+        android:textColor="#757575"
+        android:padding="7dp"
+        android:background="@drawable/buttonshapemine"
+        android:drawablePadding="10dp"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/iccorreo"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:text="Telefono"
+        android:textColor="#757575"
+        android:padding="7dp"
+        android:background="@drawable/buttonshapemine"
+        android:drawablePadding="10dp"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/ictelefono"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:text="Direccion"
+        android:textColor="#757575"
+        android:padding="7dp"
+        android:background="@drawable/buttonshapemine"
+        android:drawablePadding="10dp"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/icdireccion"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:text="Pagina Web"
+        android:textColor="#757575"
+        android:padding="7dp"
+        android:background="@drawable/buttonshapemine"
+        android:drawablePadding="10dp"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/icpaginaweb"
+        android:textSize="20sp"/>
+
+
+
+
+
+
+</LinearLayout>
