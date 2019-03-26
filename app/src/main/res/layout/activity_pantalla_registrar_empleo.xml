@@ -59,7 +59,6 @@
                 <EditText
                     android:id="@+id/editTextnombreempresa"
                     style="@style/edittextRegistrarStyle"
-                    android:drawableLeft="@drawable/iconuser"
                     android:hint="Ingrese el nombre de la empresa"/>
 
                 <TextView
@@ -70,7 +69,6 @@
                 <EditText
                     android:id="@+id/editTextnombreempleo"
                     style="@style/edittextRegistrarStyle"
-                    android:drawableLeft="@drawable/iconuser"
                     android:hint="Ingrese el nombre del empleo"/>
 
                 <TextView
@@ -99,7 +97,7 @@
                 <EditText
                     android:id="@+id/editTexttelefono"
                     style="@style/edittextRegistrarStyle"
-                    android:drawableLeft="@drawable/iconuser"
+                    android:drawableLeft="@drawable/ictelefono"
                     android:hint="Ingrese el telefono"
                     android:inputType="phone" />
 
@@ -111,7 +109,7 @@
                 <EditText
                     android:id="@+id/editTextemail"
                     style="@style/edittextRegistrarStyle"
-                    android:drawableLeft="@drawable/iconuser"
+                    android:drawableLeft="@drawable/icemail"
                     android:hint="Ingrese el email" />
 
                 <TextView
@@ -122,7 +120,7 @@
                 <EditText
                     android:id="@+id/editTextdireccion"
                     style="@style/edittextRegistrarStyle"
-                    android:drawableLeft="@drawable/iconuser"
+                    android:drawableLeft="@drawable/icdireccion"
                     android:hint="Ingrese su Direccion"/>
 
                 <TextView
@@ -133,7 +131,6 @@
                 <EditText
                     android:id="@+id/editTextpaginaweb"
                     style="@style/edittextRegistrarStyle"
-                    android:drawableLeft="@drawable/iconuser"
                     android:hint="Ingrese su pagina web"/>
 
                 <TextView
@@ -180,7 +177,7 @@
                 <EditText
                     android:id="@+id/editTexthorario"
                     style="@style/edittextRegistrarStyle"
-                    android:drawableLeft="@drawable/iconuser"
+                    android:drawableLeft="@drawable/iconreloj"
                     android:hint="Ingrese el horario"/>
 
                 <TextView
@@ -200,7 +197,7 @@
                 <EditText
                     android:id="@+id/editTextsalario"
                     style="@style/edittextRegistrarStyle"
-                    android:drawableLeft="@drawable/iconuser"
+                    android:drawableLeft="@drawable/iconmoney"
                     android:hint="Ingrese el salario"/>
 
                 <TextView
@@ -229,7 +226,6 @@
                 <EditText
                     android:id="@+id/editTextdescripcion"
                     style="@style/edittextRegistrarStyle"
-                    android:drawableLeft="@drawable/iconuser"
                     android:hint="Ingrese la descripcion"/>
 
                 <TextView
@@ -258,7 +254,6 @@
                 <EditText
                     android:id="@+id/editTextfechapublicacion"
                     style="@style/edittextRegistrarStyle"
-                    android:drawableLeft="@drawable/iconuser"
                     android:hint="Ingrese fecha de publicacion"/>
 
             </LinearLayout>

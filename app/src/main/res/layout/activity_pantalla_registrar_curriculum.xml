@@ -58,7 +58,6 @@
                 <EditText
                     android:id="@+id/editTextcedula"
                     style="@style/edittextRegistrarStyle"
-                    android:drawableLeft="@drawable/iccedula"
                     android:hint="Ingrese la cedula"
                     android:inputType="number" />
 
@@ -70,7 +69,6 @@
                 <EditText
                     android:id="@+id/editTextnombre"
                     style="@style/edittextRegistrarStyle"
-                    android:drawableLeft="@drawable/iconuser"
                     android:hint="Ingrese el nombre" />
 
                 <TextView
@@ -81,7 +79,6 @@
                 <EditText
                     android:id="@+id/editTextapellido"
                     style="@style/edittextRegistrarStyle"
-                    android:drawableLeft="@drawable/iconuser"
                     android:hint="Ingrese el apellido" />
 
                 <TextView
@@ -119,7 +116,6 @@
                 <EditText
                     android:id="@+id/editTextfechdenacimiento"
                     style="@style/edittextRegistrarStyle"
-                    android:drawableLeft="@drawable/iconuser"
                     android:hint="Ingrese fecha de nacimiento" />
 
                 <TextView
