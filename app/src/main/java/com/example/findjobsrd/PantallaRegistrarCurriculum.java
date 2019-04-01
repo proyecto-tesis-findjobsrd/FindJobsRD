@@ -18,21 +18,21 @@ public class PantallaRegistrarCurriculum extends AppCompatActivity implements Ad
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
 
 
-        Spinner spinnerProvincia = findViewById(R.id.spinnerProvincias);
+        Spinner spinnerProvincia = findViewById(R.id.spinnerProvinciasRegistrarCurriculo);
         ArrayAdapter<CharSequence> adapterProvincia = ArrayAdapter.createFromResource(this,
                 R.array.Provincias, android.R.layout.simple_spinner_item);
         adapterProvincia.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spinnerProvincia.setAdapter(adapterProvincia);
         spinnerProvincia.setOnItemSelectedListener(this);
 
-        Spinner spinnerArea = findViewById(R.id.spinnerAreas);
+        Spinner spinnerArea = findViewById(R.id.spinnerAreasRegistrarCurriculo);
         ArrayAdapter<CharSequence> adapterArea = ArrayAdapter.createFromResource(this,
                 R.array.Areadetrabajo, android.R.layout.simple_spinner_item);
         adapterArea.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spinnerArea.setAdapter(adapterArea);
         spinnerArea.setOnItemSelectedListener(this);
 
-        Spinner spinnerSexo = findViewById(R.id.spinnersexo);
+        Spinner spinnerSexo = findViewById(R.id.spinnersexoRegistrarCurriculo);
         ArrayAdapter<CharSequence> adapterSexo = ArrayAdapter.createFromResource(this,
                 R.array.Sexo, android.R.layout.simple_spinner_item);
         adapterSexo.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
@@ -46,19 +46,26 @@ public class PantallaRegistrarCurriculum extends AppCompatActivity implements Ad
         spinnerIdiomas.setAdapter(adapterIdiomas);
         spinnerIdiomas.setOnItemSelectedListener(this);
 
-        Spinner spinnerFormacionAcademica = findViewById(R.id.spinnerFormacionAcademica);
+        Spinner spinnerFormacionAcademica = findViewById(R.id.spinnerGradoRegistrarCurriculo);
         ArrayAdapter<CharSequence> adapterFormacionAcademica = ArrayAdapter.createFromResource(this,
                 R.array.FormacionAcademica, android.R.layout.simple_spinner_item);
         adapterFormacionAcademica.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spinnerFormacionAcademica.setAdapter(adapterFormacionAcademica);
         spinnerFormacionAcademica.setOnItemSelectedListener(this);
 
-        Spinner spinnerEstadoCivil = findViewById(R.id.spinnerEstadoCivil);
+        Spinner spinnerEstadoCivil = findViewById(R.id.spinnerEstadoCivilRegistrarCurriculo);
         ArrayAdapter<CharSequence> adapterEstadoCivil = ArrayAdapter.createFromResource(this,
                 R.array.EstadoCivil, android.R.layout.simple_spinner_item);
         adapterEstadoCivil.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spinnerEstadoCivil.setAdapter(adapterEstadoCivil);
         spinnerEstadoCivil.setOnItemSelectedListener(this);
+
+        Spinner spinnerEstadoDisponibilidad = findViewById(R.id.spinnerEstadoDisponibilidad);
+        ArrayAdapter<CharSequence> adapterEstadoDisponibilidad = ArrayAdapter.createFromResource(this,
+                R.array.Estado, android.R.layout.simple_spinner_item);
+        adapterEstadoDisponibilidad.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        spinnerEstadoDisponibilidad.setAdapter(adapterEstadoCivil);
+        spinnerEstadoDisponibilidad.setOnItemSelectedListener(this);
 
 
 

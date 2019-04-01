@@ -84,7 +84,7 @@
             android:textColor="#757575"
             android:textStyle="bold"
             android:layout_gravity="center"
-            android:drawableLeft="@drawable/iconuser"
+            android:drawableLeft="@drawable/icemail"
             android:drawablePadding="10dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.455"

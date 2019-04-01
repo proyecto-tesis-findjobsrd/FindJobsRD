@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/fondoblue"
+    tools:context=".PantallaPerfinBuscador">
+
+
+    <TextView
+        style="@style/TextviewStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Perfil Buscador"
+        android:textSize="40dp"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="italic"
+        android:fontFamily="sans-serif-black"
+        android:layout_marginTop="10dp"
+        android:layout_margin="10dp"/>
+
+    <ImageView
+        android:id="@+id/imageViewEmpleador"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:src="@mipmap/onlylogo"/>
+
+    <TextView
+        android:id="@+id/textNombrePerfilBuscador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:text="Nombre"/>
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:text="Nombre"
+        android:textColor="#757575"
+        android:padding="7dp"
+        android:background="@drawable/buttonshapemine"
+        android:drawablePadding="10dp"
+        android:layout_marginTop="5dp"
+        android:drawableLeft="@drawable/iconuser"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/textApellidoPerfilBuscador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:text="Apellido"/>
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:text="Apellido"
+        android:textColor="#757575"
+        android:padding="7dp"
+        android:background="@drawable/buttonshapemine"
+        android:drawablePadding="10dp"
+        android:layout_marginTop="5dp"
+        android:drawableLeft="@drawable/iconuser"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/textCorreoPerfilBuscador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:text="Correo Electronico"/>
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:text="Correo"
+        android:textColor="#757575"
+        android:padding="7dp"
+        android:background="@drawable/buttonshapemine"
+        android:drawablePadding="10dp"
+        android:layout_marginTop="5dp"
+        android:drawableLeft="@drawable/iccorreo"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/textTelefonoPerfilBuscador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:text="Telefono"/>
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:text="Telefono"
+        android:textColor="#757575"
+        android:padding="7dp"
+        android:background="@drawable/buttonshapemine"
+        android:drawablePadding="10dp"
+        android:layout_marginTop="5dp"
+        android:drawableLeft="@drawable/ictelefono"
+        android:textSize="20sp"/>
+
+
+
+</LinearLayout>

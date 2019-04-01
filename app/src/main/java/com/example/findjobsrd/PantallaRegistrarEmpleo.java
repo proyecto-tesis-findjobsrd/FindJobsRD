@@ -87,6 +87,13 @@ public class PantallaRegistrarEmpleo extends AppCompatActivity implements Adapte
         adapterSexo.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spinnerSexo.setAdapter(adapterSexo);
         spinnerSexo.setOnItemSelectedListener(this);
+
+        Spinner spinnerJornada = findViewById(R.id.spinnerJornadaTrabajo);
+        ArrayAdapter<CharSequence> adapterJornada = ArrayAdapter.createFromResource(this,
+                R.array.JornadaTrabajo, android.R.layout.simple_spinner_item);
+        adapterJornada.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        spinnerJornada.setAdapter(adapterSexo);
+        spinnerJornada.setOnItemSelectedListener(this);
     }
 
     @Override

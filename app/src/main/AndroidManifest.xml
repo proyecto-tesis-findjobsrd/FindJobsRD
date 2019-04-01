@@ -16,6 +16,10 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:windowSoftInputMode="adjustNothing">
+
+        <activity android:name=".PantallaPerfinBuscador"></activity>
+        <activity android:name=".PantallaPerfilEmpresa" />
+
         <activity
             android:name=".PantallaDetallesCurriculo"
             android:label="@string/title_activity_pantalla_detalles_curriculo"
@@ -24,6 +28,7 @@
             android:name=".PantallaDetallesEmpleo"
             android:label="@string/title_activity_pantalla_detalles_empleo"
             android:theme="@style/AppTheme.NoActionBar" />
+
         <activity android:name=".PantallaAjustesBuscador" />
         <activity android:name=".PantallaAjustesEmpleador" />
         <activity android:name=".PantallaAyudaEmpleador" />
