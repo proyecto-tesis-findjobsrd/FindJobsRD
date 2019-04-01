@@ -129,6 +129,38 @@
         <item>Soltero</item>
         <item>Casado</item>
     </string-array>
+
+    <string-array name="Comprar">
+        <item>Diseño grafico - Remoto
+        Lyt Enteprice
+        Santo Domingo
+        Temporal</item>
+        <item>Sub-gerente de Tienda
+        Dominos Pizza
+        Concepcion de La Vega
+        Fijo</item>
+        <item>Albañil
+        Contructora Morillo
+        Santo domingo
+        Temporal</item>
+    </string-array>
+
+    <string-array name="BaseComparar">
+        <item>Formacion academica</item>
+        <item>Provincia</item>
+        <item>Jornada</item>
+        <item>Salario</item>
+        <item>Idiomas</item>
+    </string-array>
+
+    <string-array name="BaseCompararCurriculo">
+        <item>Formacion academica</item>
+        <item>Provincia</item>
+        <item>Experiencia</item>
+        <item>Idiomas</item>
+    </string-array>
+
+
     <string name="title_activity_pantalla_detalles_empleo">PantallaDetallesEmpleo</string>
     <string name="large_text">
         "Material is the metaphor.\n\n"
