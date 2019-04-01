@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/fondoblue"
+    tools:context=".PantallaCompararEmpleos">
+
+    <TextView
+        style="@style/TextviewStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Comparar empleos"
+        android:textSize="30dp"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="italic"
+        android:fontFamily="sans-serif-black"
+        android:layout_margin="10dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="italic"
+        android:text="Comparacion de empleos"
+        android:padding="7dp"
+        android:layout_marginTop="40dp"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="italic"
+        android:text="Seleccionar empleo"
+        android:padding="7dp"
+        android:layout_marginTop="20dp"
+        android:textSize="15sp"/>
+
+    <Spinner
+        android:id="@+id/spinnerPrimerEmpleo"
+        style="@style/spinnerStyle"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="italic"
+        android:text="Seleccionar empleo"
+        android:padding="7dp"
+        android:layout_marginTop="20dp"
+        android:textSize="15sp"/>
+
+    <Spinner
+        android:id="@+id/spinnerSegundoEmpleo"
+        style="@style/spinnerStyle"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="italic"
+        android:text="Comparar en base a:"
+        android:padding="7dp"
+        android:layout_marginTop="20dp"
+        android:textSize="25sp"/>
+
+    <Spinner
+        android:id="@+id/spinnerCompararEnBase"
+        style="@style/spinnerStyle"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttonshape"
+        android:layout_marginTop="30dp"
+        android:text="Comparar"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="italic"
+        android:text="El empleo mejor es:"
+        android:padding="7dp"
+        android:layout_marginTop="30dp"
+        android:textSize="25sp"/>
+
+
+
+
+
+</LinearLayout>

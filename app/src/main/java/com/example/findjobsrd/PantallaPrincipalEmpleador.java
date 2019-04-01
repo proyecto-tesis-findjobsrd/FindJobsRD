@@ -88,6 +88,8 @@ public class PantallaPrincipalEmpleador extends AppCompatActivity
             startActivity(intent);
 
         } else if (id == R.id.compararEmpleador) {
+            Intent intent= new Intent(this, PantallaCompararCurriculo.class);
+            startActivity(intent);
 
         } else if (id == R.id.AyudaEmpleador) {
             Intent intent= new Intent(this, PantallaAyudaEmpleador.class);

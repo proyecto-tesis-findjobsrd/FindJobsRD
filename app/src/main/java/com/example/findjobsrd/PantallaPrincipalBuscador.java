@@ -92,6 +92,8 @@ public class PantallaPrincipalBuscador extends AppCompatActivity
             startActivity(intent);
 
         } else if (id == R.id.compararBuscador) {
+            Intent intent= new Intent(this, PantallaCompararEmpleos.class);
+            startActivity(intent);
 
         } else if (id == R.id.AyudaBuscador) {
             Intent intent= new Intent(this, PantallaAyudaBuscador.class);

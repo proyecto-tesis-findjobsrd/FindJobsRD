@@ -1,24 +1,82 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@mipmap/fondoblue"
-    tools:context=".PantallaAjustesBuscador">
-
-
+    android:layout_gravity="center_vertical"
+    tools:context=".PantallaAyudaBuscador">
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/textViewayudaempleador"
+        style="@style/TextviewStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:gravity="center"
-        android:textSize="50sp"
-        android:layout_margin="10dp"
-        android:text="Ayuda, Explicaciones del Empleador" />
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Ayuda"
+        android:layout_gravity="center_horizontal"
+        android:textSize="40dp"
+        android:textStyle="italic"/>
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Telefonos:"
+        android:layout_marginLeft="20dp"
+        android:textColor="#757575"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/ictelefono"
+        android:textSize="20sp"
+        android:layout_marginTop="100dp"/>
 
-</android.widget.LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#757575"
+        android:textStyle="bold"
+        android:text="8291235464"
+        android:paddingStart="20dp"
+        android:drawablePadding="10dp"
+        android:textSize="20sp"
+        android:layout_marginLeft="130dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#757575"
+        android:textStyle="bold"
+        android:text="8091235464"
+        android:paddingStart="20dp"
+        android:drawablePadding="10dp"
+        android:textSize="20sp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pagina Web:"
+        android:layout_marginLeft="20dp"
+        android:textColor="#757575"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/icpaginaweb"
+        android:textSize="20sp"
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#757575"
+        android:textStyle="bold"
+        android:text=" www.findjobsRD.com"
+        android:paddingStart="20dp"
+        android:drawablePadding="10dp"
+        android:textSize="20sp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="5dp"/>
+
+</LinearLayout>
