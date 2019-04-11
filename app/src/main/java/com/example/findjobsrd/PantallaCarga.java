@@ -18,7 +18,7 @@ public class PantallaCarga extends AppCompatActivity {
             @Override
             public void run() {
 
-                Intent intent = new Intent(PantallaCarga.this, PantallaLogin.class);
+                Intent intent = new Intent(PantallaCarga.this, PantallaElegirModo.class);
                 startActivity(intent);
 
             }

@@ -11,13 +11,13 @@
 
     <TextView
         android:id="@+id/textViewacercade"
-        style="@style/TextviewStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Acerca De"
         android:textSize="50dp"
         android:layout_gravity="center_horizontal"
         android:textStyle="italic"
+        android:textColor="#2196F3"
         android:fontFamily="sans-serif-black"
         android:layout_margin="10dp"/>
 

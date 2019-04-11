@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 public class PantallaElegirModo extends AppCompatActivity {
 
@@ -19,7 +20,7 @@ public class PantallaElegirModo extends AppCompatActivity {
         btn23.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent (v.getContext(), PantallaRegistroBuscador.class);
+                Intent intent = new Intent (v.getContext(), PantallaLogin.class);
                 startActivityForResult(intent, 0);
             }
         });
@@ -28,7 +29,7 @@ public class PantallaElegirModo extends AppCompatActivity {
         btn34.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent (v.getContext(), PantallaRegistroEmpleador.class);
+                Intent intent = new Intent (v.getContext(), PantallaLogin.class);
                 startActivityForResult(intent, 0);
             }
         });

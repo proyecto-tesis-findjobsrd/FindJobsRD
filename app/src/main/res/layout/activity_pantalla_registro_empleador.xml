@@ -8,176 +8,118 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="3dp"
         android:gravity="center_vertical"
         android:orientation="vertical">
 
         <TextView
-            style="@style/TextviewStyle"
+            style="@style/styleTextview"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Registro del Empleador"
-            android:textSize="30dp"
+            android:textSize="50dp"
             android:layout_gravity="center_horizontal"
             android:textStyle="italic"
+            android:textColor="#2196F3"
             android:fontFamily="sans-serif-black"
-            android:layout_margin="10dp"/>
+            android:layout_margin="5dp"/>
+
     </LinearLayout>
 
+
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center_vertical"
-        android:layout_marginLeft="20dp"
-        android:orientation="horizontal">
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:padding="3dp"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
 
         <ImageView
             android:id="@+id/imageViewEmpleador"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:layout_marginStart="8dp"
-            android:layout_marginEnd="8dp"
-            android:layout_marginBottom="8dp"
+            android:layout_gravity="center"
             android:onClick="AbrirGaleria"
+            android:layout_margin="5dp"
             android:src="@mipmap/onlylogo"/>
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textColor="#757575"
-            android:textStyle="bold"
-            android:layout_marginLeft="20sp"
-            android:text="RNC:"
-            android:textSize="20sp"/>
-
-        <EditText
-            style="@style/edittextRegistrar_Y_LoginStyle"
-            android:drawableLeft="@drawable/icrnc"
-            android:hint="Ingrese su RNC"
-            android:layout_marginEnd="10dp"
-            android:layout_marginLeft="5dp"
-            />
-
-
     </LinearLayout>
+
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="3dp"
         android:gravity="center_vertical"
+        android:background="@drawable/et_bgv2"
         android:orientation="vertical">
 
-        <TextView
-            style="@style/textviewRegistrarStyle"
-            android:text="Nombre" />
+        <EditText
+            style="@style/styleEdittext"
+            android:drawableLeft="@drawable/icrnc"
+            android:hint="Ingrese RNC"
+            android:layout_marginLeft="5dp"/>
 
         <EditText
-            style="@style/edittextRegistrar_Y_LoginStyle"
+            style="@style/styleEdittext"
             android:drawableLeft="@drawable/iconuser"
             android:hint="Ingrese Nombre"
             android:layout_marginLeft="5dp"/>
-        />
-
-
-        <TextView
-            style="@style/textviewRegistrarStyle"
-            android:text="Correo"
-            android:layout_marginLeft="20dp"
-            android:layout_marginTop="10dp"
-            />
 
         <EditText
-            style="@style/edittextRegistrar_Y_LoginStyle"
+            style="@style/styleEdittext"
             android:drawableLeft="@drawable/iccorreo"
             android:hint="Ingrese Correo"
             android:layout_marginLeft="5dp"
             />
-        <TextView
-            style="@style/textviewRegistrarStyle"
-            android:text="Telefono"
-            android:layout_marginLeft="20dp"
-            android:layout_marginTop="10dp"
-            />
 
         <EditText
-
-            style="@style/edittextRegistrar_Y_LoginStyle"
+            style="@style/styleEdittext"
             android:drawableLeft="@drawable/ictelefono"
             android:hint="Ingrese Telefono"
+            android:inputType="phone"
             android:layout_marginLeft="5dp"
             />
 
-        <TextView
-            style="@style/textviewRegistrarStyle"
-            android:text="Direccion"
-            android:layout_marginLeft="20dp"
-            android:layout_marginTop="10dp"
-            />
 
         <EditText
-            style="@style/edittextRegistrar_Y_LoginStyle"
-            android:drawableLeft="@drawable/iconuser"
+            style="@style/styleEdittext"
+            android:drawableLeft="@drawable/icdireccion"
             android:hint="Ingrese Direccion"
-            android:layout_marginLeft="5dp"
-            />
+            android:layout_marginLeft="5dp" />
 
-        <TextView
-            style="@style/textviewRegistrarStyle"
-            android:text="Pagina Web"
-            android:layout_marginLeft="20dp"
-            android:layout_marginTop="10dp"
-            />
 
         <EditText
-            style="@style/edittextRegistrar_Y_LoginStyle"
+            style="@style/styleEdittext"
             android:drawableLeft="@drawable/icweb"
             android:hint="Ingrese Pagina Web"
-            android:layout_marginLeft="5dp"
-            />
-
-        <TextView
-            style="@style/textviewRegistrarStyle"
-            android:text="Contraseña"
-            android:layout_marginLeft="20dp"
-            android:layout_marginTop="10dp"
-            />
+            android:layout_marginLeft="5dp"/>
 
         <EditText
-            style="@style/edittextRegistrar_Y_LoginStyle"
+            style="@style/styleEdittext"
             android:drawableLeft="@drawable/iconpass"
             android:hint="Ingrese Contraseña"
-            android:layout_marginLeft="5dp"
-            />
-        <TextView
-            style="@style/textviewRegistrarStyle"
-            android:text="Confirmar contraseña"
-            android:layout_marginLeft="20dp"
-            android:layout_marginTop="10dp"
-            />
+            android:layout_marginLeft="5dp"/>
 
         <EditText
-            style="@style/edittextRegistrar_Y_LoginStyle"
+            style="@style/styleEdittext"
             android:drawableLeft="@drawable/iconpass"
             android:hint="Confirmar Contraseña"
-            android:layout_marginLeft="5dp"
-            />
+            android:layout_marginLeft="5dp" />
 
     </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:orientation="vertical"
-        android:layout_marginTop="10dp">
         <Button
             android:id="@+id/bttRegistroEmpleador"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@drawable/buttonshape"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp"
+            android:background="@drawable/btn_bg"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:layout_gravity="center"
             android:text="Registrarse" />
-
-    </LinearLayout>
 
 </LinearLayout>

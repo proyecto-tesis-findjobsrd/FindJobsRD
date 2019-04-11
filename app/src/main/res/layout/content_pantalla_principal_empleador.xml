@@ -22,17 +22,11 @@ tools:showIn="@layout/app_bar_pantalla_principal_empleador">
     android:adjustViewBounds="true"
     android:cropToPadding="false"
     android:layout_gravity="center"
-    android:src="@mipmap/onlylogo"
-    app:layout_constraintBottom_toTopOf="@+id/textView2"
-    app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintHorizontal_bias="0.497"
-    app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintTop_toTopOf="parent"
-    app:layout_constraintVertical_bias="0.75"/>
+    android:src="@mipmap/onlylogo"/>
 
 <TextView
     android:id="@+id/textView2"
-    style="@style/TextviewStyle"
+    style="@style/styleTextview"
     android:layout_width="322dp"
     android:layout_height="60dp"
     android:layout_marginStart="8dp"
@@ -40,13 +34,9 @@ tools:showIn="@layout/app_bar_pantalla_principal_empleador">
     android:text="Elija Opcion a Realizar"
     android:layout_gravity="center"
     android:textStyle="italic"
+    android:textColor="#2196F3"
     android:fontFamily="sans-serif-black"
-    android:textSize="30dp"
-    app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintHorizontal_bias="0.493"
-    app:layout_constraintStart_toStartOf="parent"
-    tools:layout_editor_absoluteY="238dp"
-    tools:ignore="MissingConstraints" />
+    android:textSize="30dp"/>
 
 <Button
     android:id="@+id/buttonRegistrarEmpleo"
@@ -86,11 +76,7 @@ tools:showIn="@layout/app_bar_pantalla_principal_empleador">
     android:text="Empleos Añadidos"
     android:layout_gravity="center"
     android:textColor="#FFFFFF"
-    android:textStyle="bold"
-    app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintHorizontal_bias="0.455"
-    app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintTop_toBottomOf="@+id/button1" />
+    android:textStyle="bold"/>
 
 
 

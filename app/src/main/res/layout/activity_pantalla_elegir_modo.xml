@@ -14,27 +14,25 @@
         android:id="@+id/imageView"
         android:layout_width="222dp"
         android:layout_height="170dp"
-        android:src="@mipmap/onlylogo"/>
+        android:src="@mipmap/onlylogo" />
 
     <TextView
         android:id="@+id/textView2"
-        style="@style/TextviewStyle"
-        android:layout_width="322dp"
-        android:layout_height="94dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginTop="10dp"
-        android:text="Elegir Modo"
-        android:textStyle="italic"
+        style="@style/styleTextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
         android:fontFamily="sans-serif-black"
-        android:textSize="50dp" />
+        android:text="Elegir Modo"
+        android:textSize="50dp"
+        android:textColor="#2196F3"
+        android:textStyle="italic" />
 
     <Button
         android:id="@+id/btnSerBuscador"
-        android:layout_width="316dp"
-        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="50dp"
         android:layout_marginEnd="8dp"
         android:textColor="#FFFFFF"
         android:background="@drawable/buttonshape"
@@ -42,16 +40,13 @@
 
     <Button
         android:id="@+id/btnSerEmpleador"
-        android:layout_width="316dp"
-        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="50dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginBottom="100dp"
         android:background="@drawable/buttonshape"
         android:text="Empresa/Empleador"
-        android:textColor="#FFFFFF"/>
-
-
+        android:textColor="#FFFFFF" />
 
 </android.widget.LinearLayout>

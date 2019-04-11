@@ -9,7 +9,7 @@
     tools:context=".PantallaCompararCurriculo">
 
     <TextView
-        style="@style/TextviewStyle"
+        style="@style/styleTextview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Comparar Curriculo"
@@ -42,7 +42,7 @@
 
     <Spinner
         android:id="@+id/spinnerPrimerCurriculo"
-        style="@style/spinnerStyle"/>
+        style="@style/styleSpinner"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -56,7 +56,7 @@
 
     <Spinner
         android:id="@+id/spinnerSegundoCurriculo"
-        style="@style/spinnerStyle"/>
+        style="@style/styleSpinner"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -70,7 +70,7 @@
 
     <Spinner
         android:id="@+id/spinnerCompararEnBase"
-        style="@style/spinnerStyle"/>
+        style="@style/styleSpinner"/>
 
     <Button
         android:layout_width="wrap_content"

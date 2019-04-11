@@ -11,7 +11,7 @@
 
     <TextView
         android:id="@+id/textView2"
-        style="@style/TextviewStyle"
+        style="@style/styleTextview"
         android:layout_width="398dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -53,7 +53,7 @@
 
                 <TextView
                     android:id="@+id/MostrarNombreEmpleo"
-                    style="@style/StyleAvisoMostrarDatos"
+                    style="@style/styleTextview"
                     android:layout_height="wrap_content"
                     android:layout_width="wrap_content"
                     android:textSize="30dp"
@@ -76,7 +76,7 @@
 
                 <EditText
                     android:id="@+id/editTextnombreempresa"
-                    style="@style/edittextRegistrarStyle"
+                    style="@style/styleEdittext"
                     android:hint="Ingrese Nombre Empresa"/>
 
                 <TextView
@@ -86,7 +86,7 @@
 
                 <EditText
                     android:id="@+id/editTextnombreempleo"
-                    style="@style/edittextRegistrarStyle"
+                    style="@style/styleEdittext"
                     android:hint="Ingrese Nombre Empleo"/>
 
                 <TextView
@@ -96,7 +96,7 @@
 
                 <EditText
                      android:id="@+id/editTextdireccion"
-                     style="@style/edittextRegistrarStyle"
+                     style="@style/styleEdittext"
                      android:drawableLeft="@drawable/icdireccion"
                      android:hint="Ingrese su Direccion"/>
 
@@ -107,7 +107,7 @@
 
                 <Spinner
                     android:id="@+id/spinnerProvincias"
-                    style="@style/spinnerStyle"/>
+                    style="@style/styleSpinner"/>
 
                 <TextView
                     android:id="@+id/texttelefono"
@@ -116,7 +116,7 @@
 
                 <EditText
                      android:id="@+id/editTexttelefono"
-                     style="@style/edittextRegistrarStyle"
+                     style="@style/styleEdittext"
                      android:drawableLeft="@drawable/ictelefono"
                      android:hint="Ingrese Telefono"
                      android:inputType="phone" />
@@ -128,7 +128,7 @@
 
                 <EditText
                     android:id="@+id/editTextpaginaweb"
-                    style="@style/edittextRegistrarStyle"
+                    style="@style/styleEdittext"
                     android:hint="Ingrese Pagina Web"/>
 
                 <TextView
@@ -138,7 +138,7 @@
 
                 <EditText
                     android:id="@+id/editTextemail"
-                    style="@style/edittextRegistrarStyle"
+                    style="@style/styleEdittext"
                     android:drawableLeft="@drawable/icemail"
                     android:hint="Ingrese E-mail" />
 
@@ -149,7 +149,7 @@
 
                 <EditText
                     android:id="@+id/editTextfechapublicacion"
-                    style="@style/edittextRegistrarStyle"
+                    style="@style/styleEdittext"
                     android:hint="Ingrese Fecha Publicacion"/>
 
                <TextView
@@ -159,12 +159,12 @@
 
                <Spinner
                    android:id="@+id/spinnerEstado"
-                   style="@style/spinnerStyle"/>
+                   style="@style/styleSpinner"/>
             </LinearLayout>
 
             <TextView
                 android:id="@+id/avisoDatosEspecificos"
-                style="@style/StyleAvisoMostrarDatos"
+                style="@style/styleTextview"
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
                 android:textSize="30dp"
@@ -187,7 +187,7 @@
 
             <Spinner
                 android:id="@+id/spinnerJornadaTrabajo"
-                style="@style/spinnerStyle"/>
+                style="@style/styleSpinner"/>
 
             <TextView
                 android:id="@+id/texthorario"
@@ -196,7 +196,7 @@
 
             <EditText
                 android:id="@+id/editTexthorario"
-                style="@style/edittextRegistrarStyle"
+                style="@style/styleEdittext"
                 android:drawableLeft="@drawable/iconreloj"
                 android:hint="Ingrese Horario"/>
 
@@ -207,7 +207,7 @@
 
             <Spinner
                 android:id="@+id/spinnerCantidadVacantes"
-                style="@style/spinnerStyle"/>
+                style="@style/styleSpinner"/>
 
             <TextView
                 android:id="@+id/texttipodecontrato"
@@ -216,12 +216,12 @@
 
             <Spinner
                 android:id="@+id/spinnerTipoContrato"
-                style="@style/spinnerStyle"/>
+                style="@style/styleSpinner"/>
             </LinearLayout>
 
             <TextView
                 android:id="@+id/avisoRequisitos"
-                style="@style/StyleAvisoMostrarDatos"
+                style="@style/styleTextview"
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
                 android:textSize="30dp"
@@ -244,7 +244,7 @@
 
                 <Spinner
                     android:id="@+id/spinnerAreas"
-                    style="@style/spinnerStyle"/>
+                    style="@style/styleSpinner"/>
 
                 <TextView
                     android:id="@+id/textsexorequerido"
@@ -253,7 +253,7 @@
 
                 <Spinner
                     android:id="@+id/spinnersexorequerido"
-                    style="@style/spinnerStyle"/>
+                    style="@style/styleSpinner"/>
 
                 <TextView
                     android:id="@+id/textrangodeedad"
@@ -262,7 +262,7 @@
 
                 <Spinner
                     android:id="@+id/spinnerRangoEdad"
-                    style="@style/spinnerStyle"/>
+                    style="@style/styleSpinner"/>
 
                 <TextView
                     android:id="@+id/textidioma"
@@ -271,7 +271,7 @@
 
                 <Spinner
                     android:id="@+id/spinnerIdiomas"
-                    style="@style/spinnerStyle"/>
+                    style="@style/styleSpinner"/>
 
                 <TextView
                     android:id="@+id/textanodeexperiencia"
@@ -280,7 +280,7 @@
 
                 <Spinner
                     android:id="@+id/spinneranodeexperiencia"
-                    style="@style/spinnerStyle"/>
+                    style="@style/styleSpinner"/>
 
                 <TextView
                     android:id="@+id/textformacionacademica"
@@ -289,11 +289,11 @@
 
                 <Spinner
                     android:id="@+id/spinnerFormacionAcademica"
-                    style="@style/spinnerStyle"/>
+                    style="@style/styleSpinner"/>
 
                 <TextView
                     android:id="@+id/textotrorequisito"
-                    style="@style/StyleAvisoMostrarDatos"
+                    style="@style/styleTextview"
                     android:text="Otro Requisito"/>
 
                 <EditText
@@ -307,7 +307,7 @@
 
             <TextView
                 android:id="@+id/avisoBeneficios"
-                style="@style/StyleAvisoMostrarDatos"
+                style="@style/styleTextview"
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
                 android:textSize="30dp"
@@ -330,13 +330,13 @@
 
                 <EditText
                     android:id="@+id/editTextsalario"
-                    style="@style/edittextRegistrarStyle"
+                    style="@style/styleEdittext"
                     android:drawableLeft="@drawable/iconmoney"
                     android:hint="Ingrese Salario"/>
 
                 <TextView
                     android:id="@+id/textBeneficios"
-                    style="@style/StyleAvisoMostrarDatos"
+                    style="@style/styleTextview"
                     android:text="Otro Requisito"/>
 
                 <EditText
@@ -351,7 +351,7 @@
 
                 <TextView
                     android:id="@+id/avisoDescripcionNotaEmpleo"
-                    style="@style/StyleAvisoMostrarDatos"
+                    style="@style/styleTextview"
                     android:layout_height="wrap_content"
                     android:layout_width="wrap_content"
                     android:textSize="30dp"
@@ -374,7 +374,7 @@
 
                 <EditText
                     android:id="@+id/editTextdescripcion"
-                    style="@style/edittextRegistrarStyle"
+                    style="@style/styleEdittext"
                     android:hint="Ingrese Descripcion"/>
 
             </LinearLayout>

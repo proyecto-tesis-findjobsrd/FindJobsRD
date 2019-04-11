@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
     android:fillViewport="true"
     android:background="@mipmap/fondoblue"
     android:layout_height="match_parent">
@@ -29,7 +31,7 @@
                 android:id="@+id/btnRegistrarse"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/buttonshape"
+                android:background="@drawable/btn_bg"
                 android:text="Registrarse"/>
         </LinearLayout>
 
@@ -65,8 +67,11 @@
 
             <EditText
                 android:id="@+id/entrada_correoLogin"
-                style="@style/edittextRegistrar_Y_LoginStyle"
-                android:drawableLeft="@drawable/iconuser"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                style="@style/styleEdittext"
+                android:padding="10dp"
+                android:background="@drawable/et_bg"
                 android:layout_marginTop="8dp"
                 android:hint="E-mail" />
 
@@ -79,29 +84,42 @@
                 android:textStyle="bold"
                 android:text="Contraseña" />
 
-            <EditText
-                android:id="@+id/entrada_contrasenaLogin"
-                style="@style/edittextRegistrar_Y_LoginStyle"
-                android:background="@drawable/buttonshapemine"
-                android:layout_marginTop="8dp"
-                android:drawableLeft="@drawable/iconpass"
-                android:hint="Contraseña" />
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/etPasswordLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:passwordToggleEnabled="true">
+
+                <EditText
+                    android:id="@+id/etPassword"
+                    style="@style/styleEdittext"
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/et_bg"
+                    android:hint="Contraseña"
+                    android:inputType="textPassword"
+                    android:padding="10dp" />
+            </android.support.design.widget.TextInputLayout>
 
             <Button
                 android:id="@+id/btnIniciarSesion"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@drawable/buttonshape"
+                android:background="@drawable/btn_bg"
                 android:layout_marginTop="20dp"
-                android:text="Iniciar Sesion" />
+                android:padding="10dp"
+                android:text="Iniciar Sesion"/>
 
             <Button
                 android:id="@+id/btnIniciarSesiongoogle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@drawable/buttonshape"
+                android:background="@drawable/btn_bg"
                 android:drawableLeft="@mipmap/search"
                 android:paddingStart="10dp"
+                android:padding="10dp"
+                android:drawablePadding="5dp"
                 android:layout_marginTop="20dp"
                 android:text="Iniciar Sesion Con Google" />
 

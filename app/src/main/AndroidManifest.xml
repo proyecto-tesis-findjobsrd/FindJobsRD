@@ -26,8 +26,7 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".PantallaDetallesEmpleo"
-            android:label="@string/title_activity_pantalla_detalles_empleo"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:label="@string/title_activity_pantalla_detalles_empleo"/>
         <activity android:name=".PantallaAjustesBuscador" />
         <activity android:name=".PantallaAjustesEmpleador" />
         <activity android:name=".PantallaAyudaEmpleador" />
@@ -49,7 +48,8 @@
         <activity
             android:name=".PantallaLogin"
             android:screenOrientation="portrait"
-            android:windowSoftInputMode="adjustNothing" />
+            android:windowSoftInputMode="adjustNothing"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity android:name=".PantallaRecuperarContrasena" />
         <activity
             android:name=".PantallaPrincipalBuscador"
@@ -58,7 +58,8 @@
         <activity android:name=".PantallaRegistrarEmpleo" />
         <activity
             android:name=".PantallaCarga"
-            android:windowSoftInputMode="adjustNothing">
+            android:windowSoftInputMode="adjustNothing"
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

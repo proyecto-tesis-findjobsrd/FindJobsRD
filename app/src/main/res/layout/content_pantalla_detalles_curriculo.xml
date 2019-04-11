@@ -16,7 +16,7 @@
 
     <TextView
         android:id="@+id/MostrarNombreyApellidoCurriculo"
-        style="@style/StyleAvisoMostrarDatos"
+        style="@style/styleTextview"
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
         android:textSize="50dp"
@@ -26,7 +26,7 @@
 
     <TextView
         android:id="@+id/MostrarApellidosCurriculo"
-        style="@style/StyleAvisoMostrarDatos"
+        style="@style/styleTextview"
         android:textStyle="bold|italic"
         android:textSize="30dp"
         android:hint="Apellidos"/>
@@ -40,7 +40,7 @@
         android:orientation="vertical">
         <TextView
             android:id="@+id/textCedulaCurriculo"
-            style="@style/StyleAvisoMostrarDatos"
+            style="@style/styleTextview"
             android:text="Cedula"/>
 
         <TextView
@@ -50,7 +50,7 @@
 
         <TextView
             android:id="@+id/textdireccion"
-            style="@style/StyleAvisoMostrarDatos"
+            style="@style/styleTextview"
             android:text="Direccion"/>
 
         <TextView
@@ -61,7 +61,7 @@
 
         <TextView
             android:id="@+id/textprovincia"
-            style="@style/StyleAvisoMostrarDatos"
+            style="@style/styleTextview"
             android:text="Provincia"/>
 
         <TextView
@@ -71,7 +71,7 @@
 
         <TextView
             android:id="@+id/texttelefono"
-            style="@style/StyleAvisoMostrarDatos"
+            style="@style/styleTextview"
             android:text="Telefono" />
 
         <TextView
@@ -83,7 +83,7 @@
 
         <TextView
             android:id="@+id/textCelular"
-            style="@style/StyleAvisoMostrarDatos"
+            style="@style/styleTextview"
             android:text="Celular" />
 
         <TextView
@@ -95,7 +95,7 @@
 
         <TextView
             android:id="@+id/textemail"
-            style="@style/StyleAvisoMostrarDatos"
+            style="@style/styleTextview"
             android:text="Email"/>
 
         <TextView
@@ -106,7 +106,7 @@
 
         <TextView
             android:id="@+id/textestadoCivilcurriculo"
-            style="@style/StyleAvisoMostrarDatos"
+            style="@style/styleTextview"
             android:text="Estado Civil"/>
 
         <TextView
@@ -116,7 +116,7 @@
 
         <TextView
             android:id="@+id/textsexocurriculo"
-            style="@style/StyleAvisoMostrarDatos"
+            style="@style/styleTextview"
             android:text="Sexo"/>
 
         <TextView
@@ -126,7 +126,7 @@
 
         <TextView
             android:id="@+id/textareainteresCurriculo"
-            style="@style/StyleAvisoMostrarDatos"
+            style="@style/styleTextview"
             android:text="Area De Interes"/>
 
         <TextView
@@ -136,7 +136,7 @@
 
         <TextView
             android:id="@+id/textfechanacimientoCurriculo"
-            style="@style/StyleAvisoMostrarDatos"
+            style="@style/styleTextview"
             android:text="Fecha de Nacimiento"/>
 
         <TextView
@@ -148,7 +148,7 @@
 
     <TextView
         android:id="@+id/textdatosespecificosCurriculo"
-        style="@style/StyleAvisoMostrarDatos"
+        style="@style/styleTextview"
         android:textStyle="bold|italic"
         android:textSize="30dp"
         android:text="Formacion Academica"/>
@@ -163,7 +163,7 @@
 
         <TextView
             android:id="@+id/textgradoCurriculo"
-            style="@style/StyleAvisoMostrarDatos"
+            style="@style/styleTextview"
             android:text="Grado Academico"/>
 
         <TextView
@@ -173,7 +173,7 @@
 
         <TextView
             android:id="@+id/textidiomaadicionalCurriculo"
-            style="@style/StyleAvisoMostrarDatos"
+            style="@style/styleTextview"
             android:text="Idioma"/>
 
         <TextView
@@ -184,7 +184,7 @@
 
         <TextView
             android:id="@+id/detalleFormacionCurriculo"
-            style="@style/StyleAvisoMostrarDatos"
+            style="@style/styleTextview"
             android:text="Centro/Nivel/Año"/>
 
         <TextView
@@ -199,7 +199,7 @@
 
         <TextView
             android:id="@+id/textOtrosCursosCurriculos"
-            style="@style/StyleAvisoMostrarDatos"
+            style="@style/styleTextview"
             android:text="Otros Cursos"/>
 
         <TextView
@@ -214,7 +214,7 @@
 
     <TextView
         android:id="@+id/textrequisitos"
-        style="@style/StyleAvisoMostrarDatos"
+        style="@style/styleTextview"
         android:textStyle="bold|italic"
         android:textSize="30dp"
         android:text="Experiencia Laboral"/>
@@ -229,7 +229,7 @@
 
         <TextView
             android:id="@+id/textExperienciaLaboralcurriculo"
-            style="@style/StyleAvisoMostrarDatos"
+            style="@style/styleTextview"
             android:text="Nombre Empresa/Telefono/Cargo/Año" />
 
         <TextView
@@ -246,7 +246,7 @@
 
     <TextView
         android:id="@+id/textreferenciaslaborales"
-        style="@style/StyleAvisoMostrarDatos"
+        style="@style/styleTextview"
         android:textSize="30dp"
         android:textStyle="bold|italic"
         android:text="Referencias Laborales"/>
@@ -261,7 +261,7 @@
 
         <TextView
             android:id="@+id/textreferenciaslaboralesCurriculos"
-            style="@style/StyleAvisoMostrarDatos"
+            style="@style/styleTextview"
             android:text="Nombre/Cargo/Telefono"/>
 
         <TextView
@@ -277,7 +277,7 @@
 
     <TextView
         android:id="@+id/textDescripcion"
-        style="@style/StyleAvisoMostrarDatos"
+        style="@style/styleTextview"
         android:textSize="30dp"
         android:textStyle="bold|italic"
         android:text="Habilidades y Conocimientos"/>
@@ -292,7 +292,7 @@
 
         <TextView
             android:id="@+id/textHabilidadesyConocimientos"
-            style="@style/StyleAvisoMostrarDatos"
+            style="@style/styleTextview"
             android:text="Habilidades y Conocimientos"/>
 
         <TextView
@@ -307,7 +307,7 @@
 
     <TextView
         android:id="@+id/textotrosdatosCurriculo"
-        style="@style/StyleAvisoMostrarDatos"
+        style="@style/styleTextview"
         android:textStyle="bold|italic"
         android:textSize="30dp"
         android:text="Otros Datos"/>
@@ -322,7 +322,7 @@
 
         <TextView
             android:id="@+id/textEstadoDisponibilidadcurriculo"
-            style="@style/StyleAvisoMostrarDatos"
+            style="@style/styleTextview"
             android:text="Estado Disponibilidad" />
 
         <TextView
@@ -332,7 +332,7 @@
 
         <TextView
             android:id="@+id/textOcupacionActualcurriculo"
-            style="@style/StyleAvisoMostrarDatos"
+            style="@style/styleTextview"
             android:text="Ocupacion Actual" />
 
         <TextView
@@ -342,7 +342,7 @@
 
         <TextView
             android:id="@+id/textFechaPublicacioncurriculo"
-            style="@style/StyleAvisoMostrarDatos"
+            style="@style/styleTextview"
             android:text="FechaPublicacion" />
 
         <TextView

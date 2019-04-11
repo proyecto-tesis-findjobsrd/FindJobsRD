@@ -20,31 +20,21 @@
             android:adjustViewBounds="true"
             android:cropToPadding="false"
             android:layout_gravity="center"
-            android:src="@mipmap/onlylogo"
-            app:layout_constraintBottom_toTopOf="@+id/textView2"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.497"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.75"/>
+            android:src="@mipmap/onlylogo"/>
 
         <TextView
             android:id="@+id/textView2"
-            style="@style/TextviewStyle"
+            style="@style/styleTextview"
             android:layout_width="322dp"
             android:layout_height="94dp"
+            android:textColor="#2196F3"
             android:layout_marginStart="8dp"
             android:layout_marginEnd="8dp"
             android:text="Recuperar Contraseña"
             android:layout_gravity="center"
-            android:textStyle="italic"
+            android:textStyle="bold"
             android:fontFamily="sans-serif-black"
-            android:textSize="30dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.493"
-            app:layout_constraintStart_toStartOf="parent"
-            tools:layout_editor_absoluteY="238dp"
-            tools:ignore="MissingConstraints" />
+            android:textSize="30dp"/>
 
 
     <LinearLayout
@@ -72,25 +62,32 @@
     </LinearLayout>
 
         <EditText
-            style="@style/edittextRegistrar_Y_LoginStyle"
+            style="@style/styleEdittext"
             android:id="@+id/button1"
             android:layout_width="316dp"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:layout_marginStart="8dp"
             android:layout_marginEnd="8dp"
-            android:background="@drawable/buttonshapemine"
+            android:background="@drawable/et_bg"
             android:hint="Correo Electronico"
             android:textColorHint="#757575"
             android:textColor="#757575"
             android:textStyle="bold"
             android:layout_gravity="center"
             android:drawableLeft="@drawable/icemail"
-            android:drawablePadding="10dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.455"
-            app:layout_constraintStart_toStartOf="parent"
-            tools:layout_editor_absoluteY="410dp"
-            tools:ignore="MissingConstraints" />
+            android:drawablePadding="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp"
+            android:text="Recibiras un correo con la informacion correspondiente a su cuenta."
+            android:textStyle="bold"
+            android:textColor="#757575"
+            android:textSize="15sp" />
 
             <Button
                 android:id="@+id/button2"
@@ -99,14 +96,10 @@
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="64dp"
                 android:layout_marginEnd="8dp"
-                android:background="@drawable/buttonshape"
+                android:background="@drawable/btn_bg"
                 android:text="Enviar Correo"
                 android:layout_gravity="center"
-                android:textColor="#FFFFFF"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.455"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/button1" />
+                android:textColor="#212121"/>
 
 
 

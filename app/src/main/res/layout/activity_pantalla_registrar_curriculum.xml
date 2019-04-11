@@ -11,7 +11,7 @@
 
     <TextView
         android:id="@+id/textView2"
-        style="@style/TextviewStyle"
+        style="@style/styleTextview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -52,7 +52,7 @@
 
             <TextView
                 android:id="@+id/MostrarNombreEmpleo"
-                style="@style/StyleAvisoMostrarDatos"
+                style="@style/styleTextview"
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
                 android:textSize="30dp"
@@ -75,7 +75,7 @@
 
                 <EditText
                     android:id="@+id/editTextnombre"
-                    style="@style/edittextRegistrarStyle"
+                    style="@style/styleEdittext"
                     android:hint="Ingrese Nombres" />
 
                 <TextView
@@ -85,7 +85,7 @@
 
                 <EditText
                     android:id="@+id/editTextapellido"
-                    style="@style/edittextRegistrarStyle"
+                    style="@style/styleEdittext"
                     android:hint="Ingrese Apellidos" />
 
                 <TextView
@@ -95,7 +95,7 @@
 
                 <EditText
                     android:id="@+id/editTextcedula"
-                    style="@style/edittextRegistrarStyle"
+                    style="@style/styleEdittext"
                     android:hint="Ingrese Cedula"
                     android:inputType="number" />
 
@@ -106,7 +106,7 @@
 
                 <Spinner
                     android:id="@+id/spinnerProvinciasRegistrarCurriculo"
-                    style="@style/spinnerStyle" />
+                    style="@style/styleSpinner" />
 
                 <TextView
                     android:id="@+id/textdireccion"
@@ -115,7 +115,7 @@
 
                 <EditText
                     android:id="@+id/editTextdireccion"
-                    style="@style/edittextRegistrarStyle"
+                    style="@style/styleEdittext"
                     android:drawableLeft="@drawable/icdireccion"
                     android:hint="Ingrese Direccion" />
 
@@ -126,7 +126,7 @@
 
                 <EditText
                     android:id="@+id/editTexttelefono"
-                    style="@style/edittextRegistrarStyle"
+                    style="@style/styleEdittext"
                     android:drawableLeft="@drawable/ictelefono"
                     android:hint="Ingrese Telefono"
                     android:inputType="phone" />
@@ -138,7 +138,7 @@
 
                 <EditText
                     android:id="@+id/editTextcelular"
-                    style="@style/edittextRegistrarStyle"
+                    style="@style/styleEdittext"
                     android:drawableLeft="@drawable/iccelular"
                     android:hint="Ingrese Celular"
                     android:inputType="phone" />
@@ -150,7 +150,7 @@
 
                 <EditText
                     android:id="@+id/editTextemail"
-                    style="@style/edittextRegistrarStyle"
+                    style="@style/styleEdittext"
                     android:drawableLeft="@drawable/icemail"
                     android:hint="Ingrese E-mail" />
 
@@ -162,7 +162,7 @@
 
                 <Spinner
                     android:id="@+id/spinnerEstadoCivilRegistrarCurriculo"
-                    style="@style/spinnerStyle" />
+                    style="@style/styleSpinner" />
 
                 <TextView
                     android:id="@+id/textsexo"
@@ -171,7 +171,7 @@
 
                 <Spinner
                     android:id="@+id/spinnersexoRegistrarCurriculo"
-                    style="@style/spinnerStyle" />
+                    style="@style/styleSpinner" />
 
                 <TextView
                     android:id="@+id/textArea"
@@ -180,7 +180,7 @@
 
                 <Spinner
                     android:id="@+id/spinnerAreasRegistrarCurriculo"
-                    style="@style/spinnerStyle" />
+                    style="@style/styleSpinner" />
 
                 <TextView
                     android:id="@+id/textfechdenacimiento"
@@ -189,14 +189,14 @@
 
                 <EditText
                     android:id="@+id/editTextfechdenacimiento"
-                    style="@style/edittextRegistrarStyle"
+                    style="@style/styleEdittext"
                     android:hint="Ingrese Fecha de Nacimiento" />
 
             </LinearLayout>
 
              <TextView
                     android:id="@+id/avisoFormacionAcademica"
-                    style="@style/StyleAvisoMostrarDatos"
+                    style="@style/styleTextview"
                     android:layout_height="wrap_content"
                     android:layout_width="wrap_content"
                     android:textSize="30dp"
@@ -219,7 +219,7 @@
 
                     <Spinner
                         android:id="@+id/spinnerGradoRegistrarCurriculo"
-                        style="@style/spinnerStyle" />
+                        style="@style/styleSpinner" />
 
                     <TextView
                         android:id="@+id/textidioma"
@@ -228,7 +228,7 @@
 
                     <Spinner
                         android:id="@+id/spinnerIdiomas"
-                        style="@style/spinnerStyle" />
+                        style="@style/styleSpinner" />
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -375,7 +375,7 @@
 
                     <EditText
                         android:id="@+id/editTextOtrosCursos"
-                        style="@style/edittextRegistrarStyle"
+                        style="@style/styleEdittext"
                         android:hint="Ingrese Otros Cursos Realizados"/>
 
 
@@ -403,11 +403,11 @@
 
                     <Spinner
                         android:id="@+id/spinnernivelcurriculo"
-                        style="@style/spinnerStyle" />
+                        style="@style/styleSpinner" />
 
                     <Spinner
                         android:id="@+id/spinneraño"
-                        style="@style/spinnerStyle" />
+                        style="@style/styleSpinner" />
 
                 </LinearLayout>
 
@@ -418,7 +418,7 @@
 
                 <Spinner
                     android:id="@+id/spinneranodeexperiencia"
-                    style="@style/spinnerStyle" />
+                    style="@style/styleSpinner" />
 
                 <TextView
                     android:id="@+id/textreferenciaslaborales"
@@ -427,7 +427,7 @@
 
                 <EditText
                     android:id="@+id/editTextreferenciaslaborales"
-                    style="@style/edittextRegistrarStyle"
+                    style="@style/styleEdittext"
                     android:drawableLeft="@drawable/iconuser"
                     android:hint="Ingrese Experiencias Laborales" />
 
@@ -440,7 +440,7 @@
 
                 <EditText
                     android:id="@+id/editTexthabilidadesycompetencias"
-                    style="@style/edittextRegistrarStyle"
+                    style="@style/styleEdittext"
                     android:drawableLeft="@drawable/iconuser"
                     android:hint="Ingrese Habilidades y Competencias" />
 
@@ -464,7 +464,7 @@
 
                 <TextView
                     android:id="@+id/avisoOtrosDatos"
-                    style="@style/StyleAvisoMostrarDatos"
+                    style="@style/styleTextview"
                     android:layout_height="wrap_content"
                     android:layout_width="wrap_content"
                     android:textSize="30dp"
@@ -488,7 +488,7 @@
 
                     <Spinner
                         android:id="@+id/spinnerEstadoDisponibilidad"
-                        style="@style/spinnerStyle" />
+                        style="@style/styleSpinner" />
 
                     <TextView
                         android:id="@+id/textfechapublicacion"
@@ -497,7 +497,7 @@
 
                     <EditText
                         android:id="@+id/editTextfechapublicacion"
-                        style="@style/edittextRegistrarStyle"
+                        style="@style/styleEdittext"
                         android:drawableLeft="@drawable/iconuser"
                         android:hint="Ingrese Fecha de Publicacion" />
 
@@ -508,14 +508,14 @@
 
                     <EditText
                         android:id="@+id/editTextocupacionactual"
-                        style="@style/edittextRegistrarStyle"
+                        style="@style/styleEdittext"
                         android:drawableLeft="@drawable/iconuser"
                         android:hint="Ingrese Ocupacion Actual" />
                 </LinearLayout>
 
                 <TextView
                     android:id="@+id/avisoDescripcionNotaEmpleo"
-                    style="@style/StyleAvisoMostrarDatos"
+                    style="@style/styleTextview"
                     android:layout_height="wrap_content"
                     android:layout_width="wrap_content"
                     android:textSize="30dp"
@@ -538,7 +538,7 @@
 
                     <EditText
                         android:id="@+id/editTextHabilidadesyConocimientos"
-                        style="@style/edittextRegistrarStyle"
+                        style="@style/styleEdittext"
                         android:hint="Ingrese Habilidades y Conocimientos"/>
 
                 </LinearLayout>

@@ -16,7 +16,7 @@
 
     <TextView
         android:id="@+id/MostrarNombreEmpleo"
-        style="@style/StyleAvisoMostrarDatos"
+        style="@style/styleTextview"
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
         android:textSize="50dp"
@@ -26,7 +26,7 @@
 
     <TextView
         android:id="@+id/MostrarNombreEmpresa"
-        style="@style/StyleAvisoMostrarDatos"
+        style="@style/styleTextview"
         android:textStyle="bold|italic"
         android:textSize="30dp"
         android:hint="Nombre Empresa"/>
@@ -41,7 +41,7 @@
 
         <TextView
             android:id="@+id/textdireccion"
-            style="@style/StyleAvisoMostrarDatos"
+            style="@style/styleTextview"
             android:text="Direccion"/>
 
         <TextView
@@ -52,7 +52,7 @@
 
         <TextView
             android:id="@+id/textprovincia"
-            style="@style/StyleAvisoMostrarDatos"
+            style="@style/styleTextview"
             android:text="Provincia"/>
 
         <TextView
@@ -61,7 +61,7 @@
             android:hint="Provincia"/>
         <TextView
             android:id="@+id/texttelefono"
-            style="@style/StyleAvisoMostrarDatos"
+            style="@style/styleTextview"
             android:drawableLeft="@drawable/ictelefono"
             android:text="Telefono" />
 
@@ -72,7 +72,7 @@
             android:inputType="phone" />
         <TextView
             android:id="@+id/textpaginaweb"
-            style="@style/StyleAvisoMostrarDatos"
+            style="@style/styleTextview"
             android:text="Pagina Web"/>
 
         <TextView
@@ -82,7 +82,7 @@
 
         <TextView
             android:id="@+id/textemail"
-            style="@style/StyleAvisoMostrarDatos"
+            style="@style/styleTextview"
             android:text="Email"/>
 
         <TextView
@@ -93,7 +93,7 @@
 
         <TextView
             android:id="@+id/textestado"
-            style="@style/StyleAvisoMostrarDatos"
+            style="@style/styleTextview"
             android:text="Estado"/>
 
         <TextView
@@ -103,7 +103,7 @@
 
         <TextView
             android:id="@+id/textfechapublicacion"
-            style="@style/StyleAvisoMostrarDatos"
+            style="@style/styleTextview"
             android:text="Fecha de Publicacion"/>
 
         <TextView
@@ -115,7 +115,7 @@
 
     <TextView
         android:id="@+id/textdatosespecificos"
-        style="@style/StyleAvisoMostrarDatos"
+        style="@style/styleTextview"
         android:textStyle="bold|italic"
         android:textSize="30dp"
         android:text="Datos Especificos"/>
@@ -130,7 +130,7 @@
 
         <TextView
             android:id="@+id/textjornada"
-            style="@style/StyleAvisoMostrarDatos"
+            style="@style/styleTextview"
             android:text="Jornada"/>
 
         <TextView
@@ -140,7 +140,7 @@
 
         <TextView
             android:id="@+id/texthorario"
-            style="@style/StyleAvisoMostrarDatos"
+            style="@style/styleTextview"
             android:text="Horario"/>
 
         <TextView
@@ -151,7 +151,7 @@
 
         <TextView
             android:id="@+id/textcantidaddevacantes"
-            style="@style/StyleAvisoMostrarDatos"
+            style="@style/styleTextview"
             android:text="Cantidad de Vacantes"/>
 
         <TextView
@@ -161,7 +161,7 @@
 
         <TextView
             android:id="@+id/texttipodecontrato"
-            style="@style/StyleAvisoMostrarDatos"
+            style="@style/styleTextview"
             android:text="Tipo de Contrato"/>
 
         <TextView
@@ -173,7 +173,7 @@
 
     <TextView
         android:id="@+id/textrequisitos"
-        style="@style/StyleAvisoMostrarDatos"
+        style="@style/styleTextview"
         android:textStyle="bold|italic"
         android:textSize="30dp"
         android:text="Requisitos"/>
@@ -188,7 +188,7 @@
 
         <TextView
             android:id="@+id/textArea"
-            style="@style/StyleAvisoMostrarDatos"
+            style="@style/styleTextview"
             android:text="Area" />
 
         <TextView
@@ -198,7 +198,7 @@
 
         <TextView
             android:id="@+id/textsexorequerido"
-            style="@style/StyleAvisoMostrarDatos"
+            style="@style/styleTextview"
             android:text="Sexo requerido"/>
 
         <TextView
@@ -208,7 +208,7 @@
 
         <TextView
             android:id="@+id/textrangodeedad"
-            style="@style/StyleAvisoMostrarDatos"
+            style="@style/styleTextview"
             android:text="Rango Edad" />
 
         <TextView
@@ -218,7 +218,7 @@
 
         <TextView
             android:id="@+id/textidioma"
-            style="@style/StyleAvisoMostrarDatos"
+            style="@style/styleTextview"
             android:text="Idioma"/>
 
         <TextView
@@ -229,7 +229,7 @@
 
         <TextView
             android:id="@+id/textanodeexperiencia"
-            style="@style/StyleAvisoMostrarDatos"
+            style="@style/styleTextview"
             android:text="Años de Experiencia"/>
 
         <TextView
@@ -239,7 +239,7 @@
 
         <TextView
             android:id="@+id/textformacionacademica"
-            style="@style/StyleAvisoMostrarDatos"
+            style="@style/styleTextview"
             android:text="Formacion Academica" />
 
         <TextView
@@ -249,7 +249,7 @@
 
         <TextView
             android:id="@+id/textotrorequisito"
-            style="@style/StyleAvisoMostrarDatos"
+            style="@style/styleTextview"
             android:text="Otro Requisito"/>
 
         <TextView
@@ -263,7 +263,7 @@
 
     <TextView
         android:id="@+id/textbeneficios"
-        style="@style/StyleAvisoMostrarDatos"
+        style="@style/styleTextview"
         android:textSize="30dp"
         android:textStyle="bold|italic"
         android:text="Beneficios"/>
@@ -278,7 +278,7 @@
 
         <TextView
             android:id="@+id/textsalario"
-            style="@style/StyleAvisoMostrarDatos"
+            style="@style/styleTextview"
             android:text="Salario"/>
 
         <TextView
@@ -289,7 +289,7 @@
 
         <TextView
             android:id="@+id/textotrobeneficios"
-            style="@style/StyleAvisoMostrarDatos"
+            style="@style/styleTextview"
             android:text="Otros Beneficios"/>
 
         <TextView
@@ -303,7 +303,7 @@
 
     <TextView
         android:id="@+id/textDescripcion"
-        style="@style/StyleAvisoMostrarDatos"
+        style="@style/styleTextview"
         android:textSize="30dp"
         android:textStyle="bold|italic"
         android:text="Nota"/>
@@ -318,7 +318,7 @@
 
         <TextView
             android:id="@+id/textdescripcionnota"
-            style="@style/StyleAvisoMostrarDatos"
+            style="@style/styleTextview"
             android:text="Descripcion"/>
 
         <TextView

@@ -1,53 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
-xmlns:android="http://schemas.android.com/apk/res/android"
-android:layout_width="match_parent"
-android:layout_height="match_parent"
-android:orientation="vertical"
-android:background="@mipmap/fondoblue">
-
-<LinearLayout
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:gravity="center_vertical"
-    android:orientation="vertical">
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/fondoblue">
 
     <TextView
         android:id="@+id/textView2"
-        style="@style/TextviewStyle"
+        style="@style/styleTextview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="30dp"
+        android:layout_gravity="center"
         android:text="Registro Buscador"
-        android:layout_gravity="center_horizontal"
-        android:textStyle="italic"
+        android:textStyle="bold"
+        android:textColor="#03A9F4"
         android:fontFamily="sans-serif-black"
-        android:textSize="30dp"/>
-</LinearLayout>
+        android:textSize="40dp"/>
 
-    <LinearLayout
-        android:layout_width="172dp"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="20dp"
-        android:gravity="center"
-        android:orientation="vertical">
-
-        <ImageView
-            android:id="@+id/imageView"
-            android:layout_width="231dp"
-            android:layout_height="100dp"
-            android:layout_gravity="center"
-            android:layout_marginStart="8dp"
-            android:layout_marginEnd="20dp"
-            android:layout_marginBottom="8dp"
-            android:onClick="AbrirGaleria"
-            android:src="@mipmap/onlylogo" />
-    </LinearLayout>
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="231dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:onClick="AbrirGaleria"
+        android:src="@mipmap/onlylogo" />
 
 <LinearLayout
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:gravity="center_vertical"
+    android:background="@drawable/et_bgv2"
+    android:padding="3dp"
+    android:layout_margin="15dp"
     android:orientation="vertical">
 
     <TextView
@@ -55,102 +41,76 @@ android:background="@mipmap/fondoblue">
         android:text="Nombre" />
 
     <EditText
-        style="@style/edittextRegistrar_Y_LoginStyle"
+        style="@style/styleEdittext"
         android:drawableLeft="@drawable/iconuser"
         android:hint="Ingrese Nombre"
         android:layout_marginLeft="5dp"/>
 
-
     <TextView
         style="@style/textviewRegistrarStyle"
         android:text="Apellido"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="10dp"
-        />
+        android:layout_marginLeft="20dp"/>
 
     <EditText
-        style="@style/edittextRegistrar_Y_LoginStyle"
+        style="@style/styleEdittext"
         android:drawableLeft="@drawable/iconuser"
         android:hint="Ingrese Apellido"
-        android:layout_marginLeft="5dp"
-        />
+        android:layout_marginLeft="5dp"/>
 
     <TextView
         style="@style/textviewRegistrarStyle"
         android:text="Correo"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="10dp"
-        />
+        android:layout_marginLeft="20dp"/>
 
     <EditText
-        style="@style/edittextRegistrar_Y_LoginStyle"
+        style="@style/styleEdittext"
         android:drawableLeft="@drawable/iccorreo"
         android:hint="Ingrese Correo"
-        android:layout_marginLeft="5dp"
-        />
+        android:layout_marginLeft="5dp"/>
 
     <TextView
         style="@style/textviewRegistrarStyle"
         android:text="Telefono"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="10dp"
-        />
-
+        android:layout_marginLeft="20dp"/>
 
     <EditText
-        style="@style/edittextRegistrar_Y_LoginStyle"
+        style="@style/styleEdittext"
         android:drawableLeft="@drawable/ictelefono"
         android:hint="Ingrese Telefono"
-        android:layout_marginLeft="5dp"
-        />
+        android:inputType="phone"
+        android:layout_marginLeft="5dp"/>
 
     <TextView
         style="@style/textviewRegistrarStyle"
         android:text="Contraseña"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="10dp"
-        />
-
+        android:layout_marginLeft="20dp"/>
 
     <EditText
-        style="@style/edittextRegistrar_Y_LoginStyle"
+        style="@style/styleEdittext"
         android:drawableLeft="@drawable/iconpass"
         android:hint="Ingrese Contraseña"
-        android:layout_marginLeft="5dp"
-        />
+        android:layout_marginLeft="5dp"/>
 
     <TextView
         style="@style/textviewRegistrarStyle"
         android:text="Confirmar Contraseña"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="10dp"
-        />
-
+        android:layout_marginLeft="20dp"/>
 
     <EditText
-        style="@style/edittextRegistrar_Y_LoginStyle"
+        style="@style/styleEdittext"
         android:drawableLeft="@drawable/iconpass"
         android:hint="Confirmar Contraseña"
-        android:layout_marginLeft="5dp"
-        />
-
-
+        android:layout_marginLeft="5dp"/>
 </LinearLayout>
-<LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:gravity="center"
-    android:orientation="vertical"
-    android:layout_marginTop="10dp">
 
     <Button
         android:id="@+id/btnRegistrarBuscador"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/buttonshape"
+        android:background="@drawable/btn_bg"
+        android:layout_gravity="center"
+        android:padding="10dp"
         android:layout_marginTop="20dp"
-        android:layout_marginBottom="10dp"
         android:text="Registrarse" />
 
-</LinearLayout>
-</LinearLayout>
+    </LinearLayout>

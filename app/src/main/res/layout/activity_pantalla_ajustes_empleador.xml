@@ -9,7 +9,7 @@
     tools:context=".PantallaAjustesEmpleador">
 
     <TextView
-        style="@style/TextviewStyle"
+        style="@style/styleTextview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Ajustes"
